@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "resume serve",
-    "export": "resume export resume.html",
+    "export": "resume export index.html",
     "export-pdf": "resume export resume.pdf --format pdf",
     "validate": "resume validate"
   },
