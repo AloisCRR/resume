@@ -33,6 +33,7 @@ jobs:
             echo "exit_code=0" >> $GITHUB_ENV
           else
             echo "exit_code=1" >> $GITHUB_ENV
+          fi
       - name: Push changes
         uses: ad-m/github-push-action@master
         if: env.exit_code == 0
