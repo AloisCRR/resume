@@ -1,0 +1,30 @@
+{
+  "name": "alois-carrera-resume",
+  "version": "1.0.0",
+  "description": "Alois Carrera's professional resume in JSON Resume format, created and managed using jsonresume/resume-cli.",
+  "main": "index.js",
+  "scripts": {
+    "start": "resume serve",
+    "export": "resume export resume.html",
+    "export-pdf": "resume export resume.pdf --format pdf",
+    "validate": "resume validate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AloisCRR/resume.git"
+  },
+  "keywords": [
+    "jsonresume",
+    "resume",
+    "career",
+    "professional",
+    "json"
+  ],
+  "author": "Alois Carrera",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "resume-cli": "3.0.8"
+  },
+  "devDependencies": {},
+  "private": true
+}
