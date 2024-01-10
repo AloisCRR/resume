@@ -22,16 +22,14 @@ jobs:
           theme: macchiato
           resume_filepath: resume.json
           output_filepath: docs/index.html
-      - name: Commit published HTML
-        id: commit
+      - name: Check for changes in docs/index.html
+        id: check_changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           if [ -n "$(git status --porcelain docs/index.html)" ]; then
-            git add docs/index.html
-            git commit -m "[ci skip] chore(docs/index.html): update resume page"
+            echo "Changes detected in docs/index.html"
             echo "exit_code=0" >> $GITHUB_ENV
           else
+            echo "No changes in docs/index.html"
             echo "exit_code=1" >> $GITHUB_ENV
           fi
       - name: Debug exit_code
