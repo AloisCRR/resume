@@ -34,6 +34,8 @@ jobs:
           else
             echo "exit_code=1" >> $GITHUB_ENV
           fi
+      - name: Debug exit_code
+        run: echo "Exit Code is $exit_code"
       - name: Push changes
         uses: ad-m/github-push-action@master
         if: env.exit_code == 0
