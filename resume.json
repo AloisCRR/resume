@@ -2,24 +2,21 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "awards": [
     {
-      "awarder": "",
-      "date": "2021",
-      "summary": "Secured second place in the senior category.",
+      "awarder": "ProFuturo Foundation",
+      "date": "2022-02-28",
+      "summary": "Secured second place in the senior category of #HACK4EDU hackathon with a project named SINGSPA, a web application that makes easy for people to understand sign language using machine learning.",
       "title": "HACK4EDU 2021 - Senior Category"
     }
   ],
   "basics": {
     "email": "aloiscarrera@gmail.com",
-    "label": "Full Stack Engineer | Systems Design",
+    "label": "Software Engineer",
     "location": {
-      "address": "",
       "city": "Panamá",
       "countryCode": "PA",
-      "postalCode": "",
       "region": "Panama"
     },
     "name": "Alois Carrera",
-    "phone": "",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -32,150 +29,122 @@
         "username": "AloisCRR"
       }
     ],
-    "summary": "Solutions Architect and Full Stack Developer with a proven track record in system integration, API development, and digital transformation initiatives. Specializing in a range of modern technologies and advocating for agile methodologies, I have led key projects and demonstrated proficiency in IoT, scalable system design, and efficient, maintainable code."
+    "summary": "Solutions Architect and Software Engineer with a proven track record in system integration, API development, and digital transformation initiatives. Specializing in a range of modern technologies and advocating for agile methodologies, I have led key projects and demonstrated proficiency in APIs and scalable systems design, and efficient, maintainable code."
   },
   "certificates": [
     {
-      "date": "2021-07-01",
-      "issuer": "",
-      "name": "HACK4EDU 2021"
+      "date": "2022-10-11",
+      "issuer": "EF Standard English Test",
+      "name": "EF SET Certificate 70/100, C1 Advanced.",
+      "url": "https://www.efset.org/cert/BnxaBz"
     },
     {
-      "date": "2021-05-01",
-      "issuer": "",
-      "name": "EF SET Certificate (C1)"
-    },
-    {
-      "date": "2021-04-01",
-      "issuer": "",
-      "name": "Principios de base de datos MySQL"
-    },
-    {
-      "date": "2021-04-01",
-      "issuer": "",
-      "name": "Amazon Web Services Advanced Course"
+      "date": "2022-05-14",
+      "issuer": "Universidad Pontificia de Salamanca",
+      "name": "Amazon Web Services Advanced Course",
+      "url": "https://drive.google.com/file/d/1a-vBZI-qi9wj4Tvj_LBsXs2kHYwoCfN7/view"
     }
   ],
   "education": [
     {
-      "area": "Ingeniería de sistemas",
+      "area": "Computer and Systems Engineering",
       "courses": [],
       "endDate": "2021",
-      "gpa": "",
       "institution": "Universidad Tecnológica de Panamá",
+      "score": "2.1/3.0",
       "startDate": "2017",
       "studyType": "Bachelor"
     }
   ],
-  "interests": [
-    {
-      "keywords": [
-        "IoT",
-        "Systems Design",
-        "Sustainable Agriculture"
-      ],
-      "name": "Technological Innovation"
-    }
-  ],
   "languages": [
     {
-      "fluency": "Native or Bilingual",
-      "language": "Español"
+      "fluency": "Fluent",
+      "language": "Spanish"
     },
     {
-      "fluency": "Professional Working",
-      "language": "Inglés"
+      "fluency": "Professional working",
+      "language": "English"
     }
   ],
+  "meta": {},
   "skills": [
     {
       "keywords": [
-        "React.js",
         "TypeScript",
         "JavaScript",
-        "Node.js",
-        "SQL",
-        "MongoDB",
-        "C#",
-        "Java"
+        "Python",
+        "Go",
+        "Dart"
       ],
-      "level": "",
       "name": "Programming Languages"
     },
     {
       "keywords": [
-        "Docker Products",
-        "Apache Kafka",
-        "Express.js",
-        "Mongoose ODM",
-        "AWS",
         "Next.js",
         "Nx",
-        "NestJS",
-        "Serverless Computing",
-        "Elasticsearch"
+        "NestJS"
       ],
-      "level": "",
-      "name": "Technologies & Frameworks"
+      "name": "JavaScript Frameworks"
     },
     {
       "keywords": [
-        "MySQL",
-        "Amazon RDS",
+        "MongoDB",
         "PostgreSQL",
-        "NoSQL"
+        "Elasticsearch",
+        "MySQL"
       ],
-      "level": "",
       "name": "Databases"
     },
     {
       "keywords": [
-        "Amazon EC2",
-        "Elastic Load Balancing",
-        "AWS Lambda",
-        "CI/CD",
-        "AWS IoT"
+        "AWS Lambda"
       ],
-      "level": "",
       "name": "Cloud & DevOps"
     }
   ],
   "work": [
     {
-      "company": "Eprezto",
+      "description": "Eprezto.com is a web portal dedicated to offer third party and full coverage vehicle insurance from a reliable and secure platform.",
       "highlights": [
         "Pioneered an API-driven vehicle insurance quotation system.",
         "Managed electronic document submission processes with major insurers.",
-        "Developed a monorepo and CI/CD process, reducing code duplication."
+        "Developed a monorepo with CI/CD process, reducing code duplication."
       ],
+      "name": "Eprezto",
+      "url": "https://eprezto.gt/",
       "position": "Solutions Architect",
-      "startDate": "2022-08",
-      "summary": "Led the Eprezto International Expansion Project, focusing on API-driven vehicle insurance systems, payment process integration, and team management. Established scalable systems and CI/CD processes using modern technologies like Nx, React, and TypeScript."
+      "startDate": "2022-12",
+      "summary": "Led the Eprezto International Expansion Project, focusing on API-driven vehicle insurance systems, payment process integration, and team management. Established scalable systems and CI/CD processes using modern technologies like Nx, Next.js, and Serverless Framework."
     },
     {
-      "company": "Eprezto",
+      "name": "Eprezto",
+      "url": "https://eprezto.com/",
+      "description": "Eprezto.com is a web portal dedicated to offer third party and full coverage vehicle insurance from a reliable and secure platform.",
       "endDate": "2022-12",
       "highlights": [
         "Migrated Eprezto Blog to Next.js, improving Google PageSpeed and Lighthouse scores.",
         "Integrated PayCash payment method, managing from technical documentation to production."
       ],
-      "position": "Full Stack Engineer",
+      "position": "Software Engineer",
       "startDate": "2021-08",
       "summary": "Focused on improving web performance and payment integrations, significantly enhancing SEO and user experience."
     },
     {
-      "company": "ESALab Expert Systems And Applications",
+      "name": "ESALab Expert Systems And Applications",
+      "url": "https://esalab.es/estudiantes-de-la-universidad-tecnologica-de-panama-realizan-estancia-en-el-grupo-de-investigacion-esalab/",
       "endDate": "2021-12",
+      "description": "Research Group of the University of Salamanca specialized in IoT, Sensors, Artificial Intelligence, Expert Systems, Drones, Big Data and more.",
       "highlights": [
         "Designed and executed an irrigation control system leveraging NRF24L01+ modules and Arduino.",
-        "Integrated Grafana and AWS IoT for real-time data analysis and system monitoring."
+        "Integrated Grafana, InfluxDB and MQTT for real-time data analysis and system monitoring."
       ],
       "position": "Research Intern",
       "startDate": "2021-09",
       "summary": "Developed an intelligent irrigation control system using IoT technologies, contributing to sustainable agriculture."
     },
     {
-      "company": "EWEX",
+      "name": "EWEX",
+      "url": "https://www.ewex-app.com",
       "endDate": "2021-07",
       "highlights": [
         "Developed a chatbot using Google Dialogflow and Serverless Framework.",
