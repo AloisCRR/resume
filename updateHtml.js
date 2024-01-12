@@ -83,7 +83,7 @@ fs.readFile(htmlFilePath, 'utf8', function (err, html) {
     // setLink('icon', 'favicon.ico', 'image/x-icon');
 
     // Write the updated HTML back to the file
-    fs.writeFile(resumeFilePath, dom.serialize(), function (err) {
+    fs.writeFile(htmlFilePath, dom.serialize(), function (err) {
         if (err) {
             throw err;
         }
