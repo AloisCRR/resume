@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # Auto-generated
-index.html
+public
