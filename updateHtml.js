@@ -60,6 +60,21 @@ fs.readFile(htmlFilePath, 'utf8', function (err, html) {
         }
     }
 
+    // Function to set link (for favicon)
+    function setLink(rel, href, type) {
+        let linkElement = document.querySelector(`link[rel="${rel}"]`);
+        if (linkElement) {
+            linkElement.setAttribute('href', href);
+            linkElement.setAttribute('type', type);
+        } else {
+            linkElement = document.createElement('link');
+            linkElement.setAttribute('rel', rel);
+            linkElement.setAttribute('href', href);
+            linkElement.setAttribute('type', type);
+            document.head.appendChild(linkElement);
+        }
+    }
+
     const { label, name, summary } = resumeData.basics;
 
     // Update or add your specific meta tags
@@ -74,7 +89,7 @@ fs.readFile(htmlFilePath, 'utf8', function (err, html) {
     setMeta('og:description', summary, 'property');
     setMeta('og:image', 'https://media.licdn.com/dms/image/D4E16AQHUnBYkySCx2Q/profile-displaybackgroundimage-shrink_350_1400/0/1696364468285?e=1710374400&v=beta&t=i6nj-R0M9zyTfG0E-IS6wdoHp0nPKvITv_qcZySpbb8', 'property');
     setMeta('og:url', 'https://aloiscrr.github.io/resume/', 'property');
-    // setLink('icon', 'favicon.ico', 'image/x-icon');
+    setLink('icon', 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>', 'image/x-icon');
 
     // Write the updated HTML back to the file
     fs.writeFile(htmlFilePath, dom.serialize(), function (err) {
