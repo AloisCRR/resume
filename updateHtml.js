@@ -28,41 +28,35 @@ fs.readFile(htmlFilePath, 'utf8', function (err, html) {
 
     // Function to update or add meta tag
     function setMeta(name, content, attribute = 'name') {
-        let element = document.querySelector(`meta[${attribute}="${name}"]`);
-        if (element) {
-            element.setAttribute('content', content);
-        } else {
-            element = document.createElement('meta');
-            element.setAttribute(attribute, name);
-            element.setAttribute('content', content);
-            document.head.appendChild(element);
+        if (content) {
+            let selector = attribute === 'charset' ? `meta[charset]` : `meta[${attribute}="${name}"]`;
+            let element = document.querySelector(selector);
+            if (element) {
+                if (attribute !== 'charset') {  // 'charset' does not have a 'content' attribute
+                    element.setAttribute('content', content);
+                }
+            } else {
+                element = document.createElement('meta');
+                if (attribute !== 'charset') {
+                    element.setAttribute('content', content);
+                }
+                element.setAttribute(attribute, name);
+                document.head.appendChild(element);
+            }
         }
     }
 
     // Function to set title
     function setTitle(title) {
-        let titleElement = document.querySelector('title');
-        if (titleElement) {
-            titleElement.textContent = title;
-        } else {
-            titleElement = document.createElement('title');
-            titleElement.textContent = title;
-            document.head.appendChild(titleElement);
-        }
-    }
-
-    // Function to set link (for favicon)
-    function setLink(rel, href, type) {
-        let linkElement = document.querySelector(`link[rel="${rel}"]`);
-        if (linkElement) {
-            linkElement.setAttribute('href', href);
-            linkElement.setAttribute('type', type);
-        } else {
-            linkElement = document.createElement('link');
-            linkElement.setAttribute('rel', rel);
-            linkElement.setAttribute('href', href);
-            linkElement.setAttribute('type', type);
-            document.head.appendChild(linkElement);
+        if (title) {
+            let titleElement = document.querySelector('title');
+            if (titleElement) {
+                titleElement.textContent = title;
+            } else {
+                titleElement = document.createElement('title');
+                titleElement.textContent = title;
+                document.head.appendChild(titleElement);
+            }
         }
     }
 
