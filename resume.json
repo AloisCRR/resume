@@ -58,11 +58,11 @@
   ],
   "languages": [
     {
-      "fluency": "Fluent",
+      "fluency": "Native",
       "language": "Spanish"
     },
     {
-      "fluency": "Professional working",
+      "fluency": "Professional working proficiency",
       "language": "English"
     }
   ],
@@ -76,7 +76,7 @@
         "Go",
         "Dart"
       ],
-      "name": "Programming Languages"
+      "name": "Languages"
     },
     {
       "keywords": [
@@ -84,7 +84,7 @@
         "Nx",
         "NestJS"
       ],
-      "name": "JavaScript Frameworks"
+      "name": "Frameworks"
     },
     {
       "keywords": [
