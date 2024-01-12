@@ -97,7 +97,8 @@
     },
     {
       "keywords": [
-        "AWS Lambda"
+        "AWS Lambda",
+        "Serverless Framework"
       ],
       "name": "Cloud & DevOps"
     }
