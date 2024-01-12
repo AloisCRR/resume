@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "resume serve --theme actual",
-    "export": "resume export --theme actual index.html",
+    "export": "resume export --theme actual ./docs/index.html",
     "export-pdf": "resume export resume.pdf --format pdf",
-    "validate": "resume validate"
+    "validate": "resume validate",
+    "update-html": "node updateHtml.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "author": "Alois Carrera",
   "license": "UNLICENSED",
   "dependencies": {
+    "jsdom": "23.0.1",
     "jsonresume-theme-actual": "0.2.2",
     "resume-cli": "3.0.8"
   },

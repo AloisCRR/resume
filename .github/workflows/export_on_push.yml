@@ -34,6 +34,9 @@ jobs:
 
     - name: Run export script
       run: npm run export
+    
+    - name: Update HTML with meta tags
+      run: npm run update-html
 
     - name: Commit changes
       run: |

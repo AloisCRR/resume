@@ -111,48 +111,48 @@
         "Developed a monorepo with CI/CD process, reducing code duplication."
       ],
       "name": "Eprezto",
-      "url": "https://eprezto.gt/",
       "position": "Solutions Architect",
       "startDate": "2022-12",
-      "summary": "Led the Eprezto International Expansion Project, focusing on API-driven vehicle insurance systems, payment process integration, and team management. Established scalable systems and CI/CD processes using modern technologies like Nx, Next.js, and Serverless Framework."
+      "summary": "Led the Eprezto International Expansion Project, focusing on API-driven vehicle insurance systems, payment process integration, and team management. Established scalable systems and CI/CD processes using modern technologies like Nx, Next.js, and Serverless Framework.",
+      "url": "https://eprezto.gt/"
     },
     {
-      "name": "Eprezto",
-      "url": "https://eprezto.com/",
       "description": "Eprezto.com is a web portal dedicated to offer third party and full coverage vehicle insurance from a reliable and secure platform.",
       "endDate": "2022-12",
       "highlights": [
         "Migrated Eprezto Blog to Next.js, improving Google PageSpeed and Lighthouse scores.",
         "Integrated PayCash payment method, managing from technical documentation to production."
       ],
+      "name": "Eprezto",
       "position": "Software Engineer",
       "startDate": "2021-08",
-      "summary": "Focused on improving web performance and payment integrations, significantly enhancing SEO and user experience."
+      "summary": "Focused on improving web performance and payment integrations, significantly enhancing SEO and user experience.",
+      "url": "https://eprezto.com/"
     },
     {
-      "name": "ESALab Expert Systems And Applications",
-      "url": "https://esalab.es/estudiantes-de-la-universidad-tecnologica-de-panama-realizan-estancia-en-el-grupo-de-investigacion-esalab/",
-      "endDate": "2021-12",
       "description": "Research Group of the University of Salamanca specialized in IoT, Sensors, Artificial Intelligence, Expert Systems, Drones, Big Data and more.",
+      "endDate": "2021-12",
       "highlights": [
         "Designed and executed an irrigation control system leveraging NRF24L01+ modules and Arduino.",
         "Integrated Grafana, InfluxDB and MQTT for real-time data analysis and system monitoring."
       ],
+      "name": "ESALab Expert Systems And Applications",
       "position": "Research Intern",
       "startDate": "2021-09",
-      "summary": "Developed an intelligent irrigation control system using IoT technologies, contributing to sustainable agriculture."
+      "summary": "Developed an intelligent irrigation control system using IoT technologies, contributing to sustainable agriculture.",
+      "url": "https://esalab.es/estudiantes-de-la-universidad-tecnologica-de-panama-realizan-estancia-en-el-grupo-de-investigacion-esalab/"
     },
     {
-      "name": "EWEX",
-      "url": "https://www.ewex-app.com",
       "endDate": "2021-07",
       "highlights": [
         "Developed a chatbot using Google Dialogflow and Serverless Framework.",
         "Implemented CI/CD pipelines and containerization with Docker."
       ],
+      "name": "EWEX",
       "position": "Back End Engineer",
       "startDate": "2021-02",
-      "summary": "Led REST API development and cryptocurrency management, enhancing software design and process automation."
+      "summary": "Led REST API development and cryptocurrency management, enhancing software design and process automation.",
+      "url": "https://www.ewex-app.com"
     }
   ]
 }
