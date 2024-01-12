@@ -4,8 +4,8 @@
   "description": "Alois Carrera's professional resume in JSON Resume format, created and managed using jsonresume/resume-cli.",
   "main": "index.js",
   "scripts": {
-    "start": "resume serve --theme actual",
-    "export": "resume export --theme actual ./docs/index.html",
+    "start": "resume serve --theme stackoverflow",
+    "export": "resume export --theme stackoverflow ./docs/index.html",
     "export-pdf": "resume export resume.pdf --format pdf",
     "validate": "resume validate",
     "update-html": "node updateHtml.js"
@@ -25,7 +25,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "jsdom": "23.0.1",
-    "jsonresume-theme-actual": "0.2.2",
+    "jsonresume-theme-stackoverflow": "2.0.2",
     "resume-cli": "3.0.8"
   },
   "private": true

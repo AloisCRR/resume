@@ -4,7 +4,7 @@
     {
       "awarder": "ProFuturo Foundation",
       "date": "2022-02-28",
-      "summary": "Secured second place in the senior category of #HACK4EDU hackathon with a project named SINGSPA, a web application that makes easy for people to understand sign language using machine learning.",
+      "summary": "Secured second place in the senior category of [#HACK4EDU](https://profuturo.education/noticias/proyectos-ganadores-premiados-ii-edicion-hack4edu-2021/) hackathon with a project named [SINGSPA](https://github.com/elmerjaen/MustMatch), a web application that makes easy for people to understand sign language using machine learning.",
       "title": "HACK4EDU 2021 - Senior Category"
     }
   ],
@@ -52,17 +52,24 @@
       "endDate": "2021",
       "institution": "Universidad Tecnológica de Panamá",
       "score": "2.1/3.0",
+      "gpa": "2.1/3.0",
       "startDate": "2017",
-      "studyType": "Bachelor"
+      "studyType": "Bachelor",
+      "location": {
+        "city": "Veraguas Province",
+        "countryCode": "PA",
+        "region": "Panama"
+      },
+      "summary": "Development of original and tailored computing solutions, strong mathematical and computational foundation."
     }
   ],
   "languages": [
     {
-      "fluency": "Native",
+      "fluency": "Native speaker",
       "language": "Spanish"
     },
     {
-      "fluency": "Professional working proficiency",
+      "fluency": "Advanced",
       "language": "English"
     }
   ],
@@ -115,20 +122,43 @@
       "position": "Solutions Architect",
       "startDate": "2022-12",
       "summary": "Led the Eprezto International Expansion Project, focusing on API-driven vehicle insurance systems, payment process integration, and team management. Established scalable systems and CI/CD processes using modern technologies like Nx, Next.js, and Serverless Framework.",
-      "url": "https://eprezto.gt/"
+      "url": "https://eprezto.gt/",
+      "keywords": [
+        "Nx Monorepo",
+        "Next.js",
+        "Serverless Framework",
+        "AWS Lambda",
+        "Tailwind CSS",
+        "MongoDB"
+      ],
+      "location": "Panama City, Panama"
     },
     {
       "description": "Eprezto.com is a web portal dedicated to offer third party and full coverage vehicle insurance from a reliable and secure platform.",
       "endDate": "2022-12",
       "highlights": [
-        "Migrated Eprezto Blog to Next.js, improving Google PageSpeed and Lighthouse scores.",
-        "Integrated PayCash payment method, managing from technical documentation to production."
+        "Enhanced Eprezto Blog's performance and SEO by migrating from WordPress to Next.js with TailwindCSS.",
+        "Upgraded Eprezto Bluebook for vehicle price checking and depreciation calculations using Elasticsearch and AWS Lambda.",
+        "Implemented PayCash API for cash payments, managing from sandbox testing to live deployment and payment tracking."
       ],
       "name": "Eprezto",
       "position": "Software Engineer",
       "startDate": "2021-08",
       "summary": "Focused on improving web performance and payment integrations, significantly enhancing SEO and user experience.",
-      "url": "https://eprezto.com/"
+      "url": "https://eprezto.com/",
+      "location": "Panama City, Panama",
+      "keywords": [
+        "Next.js",
+        "SEO",
+        "Blog",
+        "Tailwind CSS",
+        "Payments",
+        "Google PageSpeed",
+        "Google Lighthouse",
+        "Elasticsearch",
+        "AWS Lambda",
+        "MongoDB"
+      ]
     },
     {
       "description": "Research Group of the University of Salamanca specialized in IoT, Sensors, Artificial Intelligence, Expert Systems, Drones, Big Data and more.",
@@ -141,7 +171,17 @@
       "position": "Research Intern",
       "startDate": "2021-09",
       "summary": "Developed an intelligent irrigation control system using IoT technologies, contributing to sustainable agriculture.",
-      "url": "https://esalab.es/estudiantes-de-la-universidad-tecnologica-de-panama-realizan-estancia-en-el-grupo-de-investigacion-esalab/"
+      "url": "https://esalab.es/estudiantes-de-la-universidad-tecnologica-de-panama-realizan-estancia-en-el-grupo-de-investigacion-esalab/",
+      "location": "Salamanca, Spain",
+      "keywords": [
+        "IoT",
+        "Arduino",
+        "MySensors",
+        "NRF24L01+",
+        "MQTT",
+        "Grafana",
+        "InfluxDB"
+      ]
     },
     {
       "endDate": "2021-07",
@@ -153,7 +193,18 @@
       "position": "Back End Engineer",
       "startDate": "2021-02",
       "summary": "Led REST API development and cryptocurrency management, enhancing software design and process automation.",
-      "url": "https://www.ewex-app.com"
+      "url": "https://www.ewex-app.com",
+      "location": "Panama City, Panama",
+      "keywords": [
+        "Serverless Framework",
+        "AWS Lambda",
+        "Docker",
+        "NestJS",
+        "BitGo",
+        "Google Dialogflow",
+        "REST API",
+        "CI/CD"
+      ]
     }
   ]
 }
