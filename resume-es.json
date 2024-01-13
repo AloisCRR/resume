@@ -1,0 +1,216 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "awards": [
+    {
+      "awarder": "Fundación ProFuturo",
+      "date": "2022-02-28",
+      "summary": "Segundo puesto en la categoría senior del hackathon [#HACK4EDU](https://profuturo.education/noticias/proyectos-ganadores-premiados-ii-edicion-hack4edu-2021/) con el proyecto [SINGSPA](https://github.com/elmerjaen/MustMatch), una aplicación web que facilita la comprensión del lenguaje de signos mediante machine learning.",
+      "title": "HACK4EDU 2021 - Categoría Senior"
+    }
+  ],
+  "basics": {
+    "email": "aloiscarrera@gmail.com",
+    "label": "Ingeniero de Sistemas",
+    "location": {
+      "city": "Panamá",
+      "countryCode": "PA",
+      "region": "Panama"
+    },
+    "name": "Alois Carrera",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alois-carrera",
+        "username": "alois-carrera"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/AloisCRR",
+        "username": "AloisCRR"
+      }
+    ],
+    "summary": "Arquitecto de soluciones e ingeniero de sistemas con un amplio historial en integración de sistemas, desarrollo de APIs e iniciativas de transformación digital. Especializado en una amplia gama de tecnologías modernas y partidario de las metodologías ágiles, he dirigido proyectos clave y demostrando mi dominio en el diseño de plataformas web (APIs) y sistemas escalables, así como en el código eficiente y mantenible."
+  },
+  "certificates": [
+    {
+      "date": "2022-10-11",
+      "issuer": "EF Standard English Test",
+      "name": "Certificado EF SET 70/100, C1 Avanzado",
+      "url": "https://www.efset.org/cert/BnxaBz"
+    },
+    {
+      "date": "2022-05-14",
+      "issuer": "Universidad Pontificia de Salamanca",
+      "name": "Curso avanzado de Amazon Web Services",
+      "url": "https://drive.google.com/file/d/1a-vBZI-qi9wj4Tvj_LBsXs2kHYwoCfN7/view"
+    },
+    {
+      "date": "2022-02-28",
+      "issuer": "Universidad Pontificia de Salamanca",
+      "name": "#HACK4EDU - Diploma Segundo Premio",
+      "url": "https://drive.google.com/file/d/1vbiMMc8KareqzOBfsPT2jVRFEs9xC5V_/view"
+    }
+  ],
+  "education": [
+    {
+      "area": "Ingeniería de Sistemas y Computación",
+      "courses": [],
+      "endDate": "2021",
+      "gpa": "2.1/3.0",
+      "institution": "Universidad Tecnológica de Panamá",
+      "location": {
+        "city": "Veraguas",
+        "countryCode": "PA",
+        "region": "Panama"
+      },
+      "score": "2.1/3.0",
+      "startDate": "2017",
+      "studyType": "Licenciatura",
+      "summary": "Desarrollo de soluciones informáticas originales y a medida, con una sólida base matemática y de computación."
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Native speaker",
+      "language": "Español"
+    },
+    {
+      "fluency": "Advanced",
+      "language": "Inglés"
+    }
+  ],
+  "meta": {},
+  "skills": [
+    {
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Go",
+        "Dart"
+      ],
+      "name": "Lenguajes de programación"
+    },
+    {
+      "keywords": [
+        "Next.js",
+        "Nx",
+        "NestJS"
+      ],
+      "name": "Frameworks de desarrollo"
+    },
+    {
+      "keywords": [
+        "MongoDB",
+        "PostgreSQL",
+        "Elasticsearch",
+        "MySQL"
+      ],
+      "name": "Bases de datos"
+    },
+    {
+      "keywords": [
+        "AWS Lambda",
+        "Serverless Framework"
+      ],
+      "name": "Nube y DevOps"
+    }
+  ],
+  "work": [
+    {
+      "description": "Eprezto.com es un portal web dedicado a ofrecer seguros de daños a terceros y cobertura completa desde una plataforma fiable y segura.",
+      "highlights": [
+        "Sistema de cotización de seguros de vehículos basado en API.",
+        "Gestión de los procesos de envío electrónico de documentos con las principales aseguradoras de Guatemala (Aseguradora General, Seguros Universales, Aseguradora Guatemalteca).",
+        "Se desarrolló un monorepo con un proceso de CI/CD, reduciendo la duplicación de código."
+      ],
+      "keywords": [
+        "Nx Monorepo",
+        "Next.js",
+        "Serverless Framework",
+        "AWS Lambda",
+        "Tailwind CSS",
+        "MongoDB"
+      ],
+      "location": "Ciudad de Panamá, Panamá",
+      "name": "Eprezto",
+      "position": "Arquitecto de Soluciones",
+      "startDate": "2022-12",
+      "summary": "Lideré el proyecto de expansión internacional de Eprezto, centrándome en sistemas de aseguramiento de vehículos basados en APIs, integración de procesos de pago (Cybersource by Visa) y gestión de equipo. Se estableció un sistema escalable y un proceso de CI/CD utilizando tecnologías modernas como Nx, Next.js y Serverless Framework.",
+      "url": "https://eprezto.gt/"
+    },
+    {
+      "description": "Eprezto.com es un portal web dedicado a ofrecer seguros de daños a terceros y cobertura completa desde una plataforma fiable y segura.",
+      "endDate": "2022-12",
+      "highlights": [
+        "Mejora del rendimiento y SEO de Eprezto Blog migrando de WordPress a Next.js con TailwindCSS.",
+        "Actualización de Eprezto Bluebook para la comprobación de precios de vehículos y cálculos de depreciación mediante Elasticsearch y AWS Lambda.",
+        "Implementación de la API PayCash para pagos en efectivo, gestión desde las pruebas en sandbox hasta el despliegue en producción y el seguimiento de los pagos."
+      ],
+      "keywords": [
+        "Next.js",
+        "SEO",
+        "Blog",
+        "Tailwind CSS",
+        "Payments",
+        "Google PageSpeed",
+        "Google Lighthouse",
+        "Elasticsearch",
+        "AWS Lambda",
+        "MongoDB"
+      ],
+      "location": "Ciudad de Panamá, Panamá",
+      "name": "Eprezto",
+      "position": "Ingeniero de Software",
+      "startDate": "2021-08",
+      "summary": "Me centré en mejorar el rendimiento del blog y las integraciones de pago en la página principal, mejorando significativamente el SEO y la experiencia del usuario.",
+      "url": "https://eprezto.com/"
+    },
+    {
+      "description": "Grupo de Investigación de la Universidad de Salamanca especializado en IoT, Sensores, Inteligencia Artificial, Sistemas Expertos, Drones, Big Data y más.",
+      "endDate": "2021-12",
+      "highlights": [
+        "Diseño y ejecución de un sistema de control de riego mediante módulos NRF24L01+ y Arduino.",
+        "Grafana, InfluxDB y MQTT integrados para el análisis de datos en tiempo real y la supervisión del sistema."
+      ],
+      "keywords": [
+        "IoT",
+        "Arduino",
+        "MySensors",
+        "NRF24L01+",
+        "MQTT",
+        "Grafana",
+        "InfluxDB"
+      ],
+      "location": "Salamanca, España",
+      "name": "ESALab Expert Systems And Applications",
+      "position": "Pasante de investigación",
+      "startDate": "2021-09",
+      "summary": "Desarrollo de un sistema inteligente de control del riego mediante tecnologías IoT, contribuyendo a la agricultura sostenible.",
+      "url": "https://esalab.es/estudiantes-de-la-universidad-tecnologica-de-panama-realizan-estancia-en-el-grupo-de-investigacion-esalab/"
+    },
+    {
+      "endDate": "2021-07",
+      "highlights": [
+        "Desarrollo de una API REST con NestJS en Node.js, centrándose en los principios de Clean Architecture y SOLID, además de gestionar transacciones de criptomonedas utilizando la API de BitGo.",
+        "Configuración de pipeline CI/CD utilizando GitHub Actions, implementación de containerización con Docker para el despliegue en AWS ECS."
+      ],
+      "keywords": [
+        "Serverless Framework",
+        "AWS Lambda",
+        "Docker",
+        "NestJS",
+        "BitGo",
+        "Google Dialogflow",
+        "REST API",
+        "CI/CD"
+      ],
+      "location": "Panama City, Panama",
+      "name": "EWEX",
+      "position": "Back End Engineer",
+      "startDate": "2021-02",
+      "summary": "Led REST API development and cryptocurrency management, enhancing software design and process automation.",
+      "url": "https://www.ewex-app.com"
+    }
+  ]
+}

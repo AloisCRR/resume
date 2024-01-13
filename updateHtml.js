@@ -2,8 +2,8 @@ const fs = require('fs');
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 
-const htmlFilePath = './docs/index.html';
-const resumeFilePath = 'resume.json';
+const htmlFilePath = process.argv[2] || './docs/index.html';
+const resumeFilePath = process.argv[3] || 'resume.json';
 
 // Read resume.json
 let resumeData;

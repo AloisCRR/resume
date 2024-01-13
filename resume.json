@@ -43,6 +43,12 @@
       "issuer": "Universidad Pontificia de Salamanca",
       "name": "Amazon Web Services Advanced Course",
       "url": "https://drive.google.com/file/d/1a-vBZI-qi9wj4Tvj_LBsXs2kHYwoCfN7/view"
+    },
+    {
+      "date": "2022-02-28",
+      "issuer": "Universidad Pontificia de Salamanca",
+      "name": "#HACK4EDU - Second Prize Diploma",
+      "url": "https://drive.google.com/file/d/1vbiMMc8KareqzOBfsPT2jVRFEs9xC5V_/view"
     }
   ],
   "education": [
@@ -50,16 +56,16 @@
       "area": "Computer and Systems Engineering",
       "courses": [],
       "endDate": "2021",
-      "institution": "Universidad Tecnológica de Panamá",
-      "score": "2.1/3.0",
       "gpa": "2.1/3.0",
-      "startDate": "2017",
-      "studyType": "Bachelor",
+      "institution": "Universidad Tecnológica de Panamá",
       "location": {
         "city": "Veraguas Province",
         "countryCode": "PA",
         "region": "Panama"
       },
+      "score": "2.1/3.0",
+      "startDate": "2017",
+      "studyType": "Bachelor",
       "summary": "Development of original and tailored computing solutions, strong mathematical and computational foundation."
     }
   ],
@@ -114,15 +120,10 @@
     {
       "description": "Eprezto.com is a web portal dedicated to offer third party and full coverage vehicle insurance from a reliable and secure platform.",
       "highlights": [
-        "Pioneered an API-driven vehicle insurance quotation system.",
-        "Managed electronic document submission processes with major insurers.",
+        "API-driven vehicle insurance quotation system.",
+        "Managed electronic document submission processes with major insurers in Guatemala (Aseguradora General, Seguros Universales, Aseguradora Guatemalteca).",
         "Developed a monorepo with CI/CD process, reducing code duplication."
       ],
-      "name": "Eprezto",
-      "position": "Solutions Architect",
-      "startDate": "2022-12",
-      "summary": "Led the Eprezto International Expansion Project, focusing on API-driven vehicle insurance systems, payment process integration, and team management. Established scalable systems and CI/CD processes using modern technologies like Nx, Next.js, and Serverless Framework.",
-      "url": "https://eprezto.gt/",
       "keywords": [
         "Nx Monorepo",
         "Next.js",
@@ -131,7 +132,12 @@
         "Tailwind CSS",
         "MongoDB"
       ],
-      "location": "Panama City, Panama"
+      "location": "Panama City, Panama",
+      "name": "Eprezto",
+      "position": "Solutions Architect",
+      "startDate": "2022-12",
+      "summary": "Led the Eprezto International Expansion Project, focusing on API-driven vehicle insurance systems, payment process integration, and team management. Established scalable systems and CI/CD processes using modern technologies like Nx, Next.js, and Serverless Framework.",
+      "url": "https://eprezto.gt/"
     },
     {
       "description": "Eprezto.com is a web portal dedicated to offer third party and full coverage vehicle insurance from a reliable and secure platform.",
@@ -141,12 +147,6 @@
         "Upgraded Eprezto Bluebook for vehicle price checking and depreciation calculations using Elasticsearch and AWS Lambda.",
         "Implemented PayCash API for cash payments, managing from sandbox testing to live deployment and payment tracking."
       ],
-      "name": "Eprezto",
-      "position": "Software Engineer",
-      "startDate": "2021-08",
-      "summary": "Focused on improving web performance and payment integrations, significantly enhancing SEO and user experience.",
-      "url": "https://eprezto.com/",
-      "location": "Panama City, Panama",
       "keywords": [
         "Next.js",
         "SEO",
@@ -158,7 +158,13 @@
         "Elasticsearch",
         "AWS Lambda",
         "MongoDB"
-      ]
+      ],
+      "location": "Panama City, Panama",
+      "name": "Eprezto",
+      "position": "Software Engineer",
+      "startDate": "2021-08",
+      "summary": "Focused on improving blog performance and main website payment integrations, significantly enhancing SEO and user experience.",
+      "url": "https://eprezto.com/"
     },
     {
       "description": "Research Group of the University of Salamanca specialized in IoT, Sensors, Artificial Intelligence, Expert Systems, Drones, Big Data and more.",
@@ -167,12 +173,6 @@
         "Designed and executed an irrigation control system leveraging NRF24L01+ modules and Arduino.",
         "Integrated Grafana, InfluxDB and MQTT for real-time data analysis and system monitoring."
       ],
-      "name": "ESALab Expert Systems And Applications",
-      "position": "Research Intern",
-      "startDate": "2021-09",
-      "summary": "Developed an intelligent irrigation control system using IoT technologies, contributing to sustainable agriculture.",
-      "url": "https://esalab.es/estudiantes-de-la-universidad-tecnologica-de-panama-realizan-estancia-en-el-grupo-de-investigacion-esalab/",
-      "location": "Salamanca, Spain",
       "keywords": [
         "IoT",
         "Arduino",
@@ -181,20 +181,20 @@
         "MQTT",
         "Grafana",
         "InfluxDB"
-      ]
+      ],
+      "location": "Salamanca, Spain",
+      "name": "ESALab Expert Systems And Applications",
+      "position": "Research Intern",
+      "startDate": "2021-09",
+      "summary": "Developed an intelligent irrigation control system using IoT technologies, contributing to sustainable agriculture.",
+      "url": "https://esalab.es/estudiantes-de-la-universidad-tecnologica-de-panama-realizan-estancia-en-el-grupo-de-investigacion-esalab/"
     },
     {
       "endDate": "2021-07",
       "highlights": [
-        "Developed a chatbot using Google Dialogflow and Serverless Framework.",
-        "Implemented CI/CD pipelines and containerization with Docker."
+        "Led REST API development with NestJS on Node.js, focusing on Clean Architecture and SOLID principles, and managed cryptocurrency transactions using BitGo API",
+        "Set up CI/CD pipelines using GitHub Actions, implemented containerization with Docker to deploy on AWS ECS"
       ],
-      "name": "EWEX",
-      "position": "Back End Engineer",
-      "startDate": "2021-02",
-      "summary": "Led REST API development and cryptocurrency management, enhancing software design and process automation.",
-      "url": "https://www.ewex-app.com",
-      "location": "Panama City, Panama",
       "keywords": [
         "Serverless Framework",
         "AWS Lambda",
@@ -204,7 +204,13 @@
         "Google Dialogflow",
         "REST API",
         "CI/CD"
-      ]
+      ],
+      "location": "Ciudad de Panamá, Panamá",
+      "name": "EWEX",
+      "position": "Desarrollador Backend",
+      "startDate": "2021-02",
+      "summary": "Desarrollo de API REST y gestión de criptomonedas, mejorando el diseño de software y la automatización de procesos.",
+      "url": "https://www.ewex-app.com"
     }
   ]
 }
