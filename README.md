@@ -6,6 +6,11 @@ Professional resume in JSON Resume format, created and managed using jsonresume/
 
 The project is used to generate and manage a professional resume. It uses the JSON Resume format and the jsonresume/resume-cli tool. The resume is styled with the StackOverflow theme.
 
+## Resume Versions
+
+- [English](https://aloiscrr.github.io/resume/)
+- [Español](https://aloiscrr.github.io/resume/es)
+
 ## Installation
 
 To install the project, you need to have Node.js and npm installed on your machine. Once you have these prerequisites, you can clone the repository and install the dependencies using the following commands:
