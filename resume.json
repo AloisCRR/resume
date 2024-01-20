@@ -122,7 +122,7 @@
       "highlights": [
         "API-driven vehicle insurance quotation system.",
         "Managed electronic document submission processes with major insurers in Guatemala (Aseguradora General, Seguros Universales, Aseguradora Guatemalteca).",
-        "Developed a monorepo with CI/CD process, reducing code duplication."
+        "Development of a scalable monorepo using Nx with CI/CD, enhancing efficiency by integrating a shared design system, TypeScript interfaces, linter configuration, and reducing code duplication across projects."
       ],
       "keywords": [
         "Nx Monorepo",
@@ -143,8 +143,8 @@
       "description": "Eprezto.com is a web portal dedicated to offer third party and full coverage vehicle insurance from a reliable and secure platform.",
       "endDate": "2022-12",
       "highlights": [
-        "Enhanced Eprezto Blog's performance and SEO by migrating from WordPress to Next.js with TailwindCSS.",
-        "Upgraded Eprezto Bluebook for vehicle price checking and depreciation calculations using Elasticsearch and AWS Lambda.",
+        "Enhanced [Eprezto Blog's](https://blog.eprezto.com/) [performance and SEO](https://pagespeed.web.dev/analysis/https-blog-eprezto-com/x91ozo0elf?form_factor=mobile) by migrating from WordPress to Next.js with TailwindCSS.",
+        "Upgraded Eprezto Bluebook for vehicle [price checking](https://bluebook.eprezto.com/tabla-valor-vehiculo) and [depreciation calculations](https://bluebook.eprezto.com/calculo-depreciacion-vehiculo) using Elasticsearch and AWS Lambda.",
         "Implemented PayCash API for cash payments, managing from sandbox testing to live deployment and payment tracking."
       ],
       "keywords": [
@@ -205,11 +205,11 @@
         "REST API",
         "CI/CD"
       ],
-      "location": "Ciudad de Panamá, Panamá",
+      "location": "Panama City, Panama",
       "name": "EWEX",
-      "position": "Desarrollador Backend",
+      "position": "Backend Engineer",
       "startDate": "2021-02",
-      "summary": "Desarrollo de API REST y gestión de criptomonedas, mejorando el diseño de software y la automatización de procesos.",
+      "summary": "Led REST API development and cryptocurrency management, enhancing software design and process automation.",
       "url": "https://www.ewex-app.com"
     }
   ]

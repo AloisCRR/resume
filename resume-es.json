@@ -120,9 +120,9 @@
     {
       "description": "Eprezto.com es un portal web dedicado a ofrecer seguros de daños a terceros y cobertura completa desde una plataforma fiable y segura.",
       "highlights": [
-        "Sistema de cotización de seguros de vehículos basado en API.",
+        "Sistema de cotización de seguros de vehículos basado en APIs.",
         "Gestión de los procesos de envío electrónico de documentos con las principales aseguradoras de Guatemala (Aseguradora General, Seguros Universales, Aseguradora Guatemalteca).",
-        "Se desarrolló un monorepo con un proceso de CI/CD, reduciendo la duplicación de código."
+        "Desarrollo de un monorepo escalable utilizando Nx con un pipeline CI/CD, mejorando la eficiencia mediante la integración de un sistema de diseño compartido, interfaces TypeScript, configuración del linter y reduciendo la duplicación de código entre proyectos."
       ],
       "keywords": [
         "Nx Monorepo",
@@ -143,9 +143,9 @@
       "description": "Eprezto.com es un portal web dedicado a ofrecer seguros de daños a terceros y cobertura completa desde una plataforma fiable y segura.",
       "endDate": "2022-12",
       "highlights": [
-        "Mejora del rendimiento y SEO de Eprezto Blog migrando de WordPress a Next.js con TailwindCSS.",
-        "Actualización de Eprezto Bluebook para la comprobación de precios de vehículos y cálculos de depreciación mediante Elasticsearch y AWS Lambda.",
-        "Implementación de la API PayCash para pagos en efectivo, gestión desde las pruebas en sandbox hasta el despliegue en producción y el seguimiento de los pagos."
+        "Mejora del [rendimiento y SEO](https://pagespeed.web.dev/analysis/https-blog-eprezto-com/x91ozo0elf?form_factor=mobile) del [blog de Eprezto](https://blog.eprezto.com/) migrando de WordPress a Next.js con TailwindCSS.",
+        "Actualización del Eprezto Bluebook para la [comprobación de precios de vehículos](https://bluebook.eprezto.com/tabla-valor-vehiculo) y [cálculos de depreciación](https://bluebook.eprezto.com/calculo-depreciacion-vehiculo) mediante Elasticsearch y AWS Lambda.",
+        "Implementación de la API de PayCash para pagos en efectivo, gestión desde las pruebas en sandbox hasta el despliegue en producción y el seguimiento de los pagos."
       ],
       "keywords": [
         "Next.js",
@@ -205,11 +205,11 @@
         "REST API",
         "CI/CD"
       ],
-      "location": "Panama City, Panama",
+      "location": "Ciudad de Panamá, Panamá",
       "name": "EWEX",
-      "position": "Back End Engineer",
+      "position": "Ingeniero de backend",
       "startDate": "2021-02",
-      "summary": "Led REST API development and cryptocurrency management, enhancing software design and process automation.",
+      "summary": "Desarrollo de API REST y gestión de criptomonedas, mejorando el diseño de software y la automatización de procesos.",
       "url": "https://www.ewex-app.com"
     }
   ]
