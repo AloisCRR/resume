@@ -130,7 +130,9 @@
         "Serverless Framework",
         "AWS Lambda",
         "Tailwind CSS",
-        "MongoDB"
+        "MongoDB",
+        "Cybersource by Visa",
+        "Elasticsearch"
       ],
       "location": "Panama City, Panama",
       "name": "Eprezto",
@@ -170,17 +172,23 @@
       "description": "Research Group of the University of Salamanca specialized in IoT, Sensors, Artificial Intelligence, Expert Systems, Drones, Big Data and more.",
       "endDate": "2021-12",
       "highlights": [
-        "Designed and executed an irrigation control system leveraging NRF24L01+ modules and Arduino.",
-        "Integrated Grafana, InfluxDB and MQTT for real-time data analysis and system monitoring."
+        "Independently designed and executed an intelligent irrigation control system using IoT technologies, NRF24L01+ modules, Arduino, and sensors, focusing on real-time data collection and soil moisture analysis.",
+        "Implemented InfluxDB for data logging, Telegraf for metric transportation from MQTT, and integrated Grafana for visualizing soil moisture data, ensuring effective data management and decision-making.",
+        "Leveraged AWS IoT as an MQTT cloud broker, showcasing skills in Systems Design, RF communication, and IoT, contributing to sustainable agriculture and efficient irrigation practices."
       ],
       "keywords": [
-        "IoT",
-        "Arduino",
         "MySensors",
-        "NRF24L01+",
+        "IoT",
+        "NRF24L01+PA+LNA",
+        "Arduino",
+        "Capacitive soil moisture sensors",
+        "InfluxDB",
+        "Telegraf",
         "MQTT",
         "Grafana",
-        "InfluxDB"
+        "AWS IoT",
+        "Systems Design",
+        "Radio Frequency (RF)"
       ],
       "location": "Salamanca, Spain",
       "name": "ESALab Expert Systems And Applications",
@@ -192,18 +200,23 @@
     {
       "endDate": "2021-07",
       "highlights": [
-        "Led REST API development with NestJS on Node.js, focusing on Clean Architecture and SOLID principles, and managed cryptocurrency transactions using BitGo API",
-        "Set up CI/CD pipelines using GitHub Actions, implemented containerization with Docker to deploy on AWS ECS"
+        "Spearheaded REST API development with NestJS on Node.js, ensuring quality through Clean Architecture and SOLID principles, and managed cryptocurrency transactions using BitGo API.",
+        "Established CI/CD pipelines with GitHub Actions, streamlined deployment on AWS ECS using Docker, and implemented PostgreSQL for data management.",
+        "Developed a chatbot utilizing Google Dialogflow and Serverless Framework on AWS Lambda to boost user interaction and automate processes."
       ],
       "keywords": [
-        "Serverless Framework",
-        "AWS Lambda",
-        "Docker",
         "NestJS",
-        "BitGo",
+        "Node.js",
+        "Clean Architecture",
+        "SOLID Principles",
+        "BitGo API",
+        "GitHub Actions",
+        "Docker",
+        "AWS ECS",
+        "PostgreSQL",
         "Google Dialogflow",
-        "REST API",
-        "CI/CD"
+        "Serverless Framework",
+        "AWS Lambda"
       ],
       "location": "Panama City, Panama",
       "name": "EWEX",
