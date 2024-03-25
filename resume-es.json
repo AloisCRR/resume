@@ -29,7 +29,7 @@
         "username": "AloisCRR"
       }
     ],
-    "summary": "Arquitecto de Soluciones e Ingeniero de Software especializado en la integración de sistemas, desarrollo de API y proyectos de transformación digital. Con un enfoque en tecnologías modernas y metodologías ágiles, he liderado proyectos clave, demostrando mi experiencia en APIs, diseño de sistemas escalables y el desarrollo de código eficiente y mantenible. Mi enfoque práctico y compromiso con la excelencia han generado soluciones impactantes en diversos proyectos."
+    "summary": "Arquitecto de Soluciones e Ingeniero de Software especializado en la integración de sistemas, desarrollo de APIs y proyectos de transformación digital. Con un enfoque en tecnologías modernas y metodologías ágiles, he liderado proyectos clave, demostrando mi experiencia en el diseño de sistemas escalables y el desarrollo de código eficiente y mantenible. Mi enfoque práctico y compromiso con la excelencia han generado soluciones impactantes en diversos proyectos."
   },
   "certificates": [
     {
@@ -119,8 +119,8 @@
       "description": "Eprezto.com es un portal web dedicado a ofrecer seguros de daños a terceros y cobertura completa desde una plataforma fiable y segura.",
       "highlights": [
         "Sistema de cotización de seguros de vehículos basado en APIs.",
-        "Gestión de los procesos de envío electrónico de documentos con las principales aseguradoras de Guatemala (Aseguradora General, Seguros Universales, Aseguradora Guatemalteca).",
-        "Desarrollo de un monorepo escalable utilizando Nx con un pipeline CI/CD, mejorando la eficiencia mediante la integración de un sistema de diseño compartido, interfaces TypeScript, configuración del linter y reduciendo la duplicación de código entre proyectos."
+        "Gestión de los procesos de envío electrónico de documentos con las principales aseguradoras de Guatemala (Aseguradora General, Aseguradora Guatemalteca, Seguros Universales) y Costa Rica (Grupo INS, Mapfre, Oceánica de Seguros, Quálitas, Seguros LAFISE).",
+        "Desarrollo de un monorepo utilizando Nx con un pipeline CI/CD, reduciendo la duplicación de código entre proyectos utilizando un sistema de diseño compartido con componentes desarrollados en React y TailwindCSS, reutilizando interfaces de TypeScript y diferentes configuraciones, entre ellas el linter/formatter."
       ],
       "keywords": [
         "Nx Monorepo",
@@ -137,7 +137,7 @@
       "name": "Eprezto",
       "position": "Arquitecto de Soluciones",
       "startDate": "2022-12",
-      "summary": "Lideré el proyecto de expansión internacional de Eprezto, centrándome en sistemas de aseguramiento de vehículos basados en APIs, integración de procesos de pago (Cybersource de Visa) y gestión de equipo. Se estableció un sistema escalable y un proceso de CI/CD utilizando tecnologías modernas como Nx, Next.js y Serverless Framework.",
+      "summary": "Lidero actualmente el proyecto de expansión internacional de Eprezto, centrándome en sistemas de aseguramiento de vehículos basados en APIs para 3 países (Costa Rica, Guatemala, República Dominicana), integración de procesador (gateway) de pago (Cybersource de Visa), además de gestionar un equipo compacto. Se estableció un sistema escalable a través del uso de un monorepo, con un proceso de CI/CD (Continuos Integration/Delivery) utilizando tecnologías modernas como Nx, Next.js y Serverless Framework.",
       "url": "https://eprezto.gt/"
     },
     {
@@ -199,8 +199,8 @@
     {
       "endDate": "2021-07",
       "highlights": [
-        "Dirigí el desarrollo de una API REST con NestJS en Node.js, garantizando la calidad mediante una arquitectura limpia y principios SOLID, y se administraron transacciones de criptomoneda utilizando la API de BitGo",
-        "Se establecieron pipelines CI/CD con GitHub Actions, agilizando el despliegue en AWS ECS usando Docker. Se implementó PostgreSQL para la gestión de datos",
+        "Dirigí el desarrollo de una API REST con NestJS en Node.js, garantizando la calidad mediante una arquitectura limpia y principios SOLID, y se administraron transacciones de criptomoneda utilizando la API de BitGo.",
+        "Se establecieron pipelines CI/CD con GitHub Actions, agilizando el despliegue en AWS ECS usando Docker. Se implementó PostgreSQL para la gestión de datos.",
         "Implementación de un chatbot utilizando Google Dialogflow y Serverless Framework en AWS Lambda para impulsar la interacción con el usuario y automatizar los procesos."
       ],
       "keywords": [

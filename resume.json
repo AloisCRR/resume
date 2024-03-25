@@ -29,7 +29,7 @@
         "username": "AloisCRR"
       }
     ],
-    "summary": "Solutions Architect and Software Engineer specializing in system integration, API development, and digital transformation initiatives. With a focus on modern technologies and agile methodologies, I have spearheaded key projects, showcasing expertise in APIs, scalable systems design, and the development of efficient, maintainable code. My hands-on approach and commitment to excellence have consistently delivered impactful solutions across various projects."
+    "summary": "Solutions Architect and Software Engineer specialized in systems integration, API development and digital transformation projects. With a focus on modern technologies and agile methodologies, I have led key projects, demonstrating my expertise in designing scalable systems and developing efficient and maintainable code. My hands-on approach and commitment to excellence have generated impactful solutions in diverse projects."
   },
   "certificates": [
     {
@@ -118,9 +118,9 @@
     {
       "description": "Eprezto.com is a web portal dedicated to offer third party and full coverage vehicle insurance from a reliable and secure platform.",
       "highlights": [
-        "API-driven vehicle insurance quotation system.",
-        "Managed electronic document submission processes with major insurers in Guatemala (Aseguradora General, Seguros Universales, Aseguradora Guatemalteca).",
-        "Development of a scalable monorepo using Nx with CI/CD, enhancing efficiency by integrating a shared design system, TypeScript interfaces, linter configuration, and reducing code duplication across projects."
+        "Vehicle insurance quotation system based on APIs",
+        "Management of electronic document delivery processes with the main insurance companies in Guatemala (Aseguradora General, Aseguradora Guatemalteca, Seguros Universales) and Costa Rica (Grupo INS, Mapfre, Oceánica de Seguros, Quálitas, Seguros LAFISE).",
+        "Development of a monorepo using Nx with a CI/CD pipeline, reducing code duplication between projects using a shared design system with components developed in React and TailwindCSS, reusing TypeScript interfaces and different configurations, including linter/formatter."
       ],
       "keywords": [
         "Nx Monorepo",
@@ -136,7 +136,7 @@
       "name": "Eprezto",
       "position": "Solutions Architect",
       "startDate": "2022-12",
-      "summary": "Led the Eprezto International Expansion Project, focusing on API-driven vehicle insurance systems, payment process integration (Cybersource by Visa), and team management. Established scalable systems and CI/CD processes using modern technologies like Nx, Next.js, and Serverless Framework.",
+      "summary": "I am currently leading Eprezto's international expansion project, focusing on API-based vehicle insurance systems for 3 countries (Costa Rica, Guatemala, Dominican Republic), payment gateway integration (Visa Cybersource), as well as managing a compact team. A scalable system was established through the use of a monorepo, with a CI/CD (Continuous Integration/Delivery) process using modern technologies such as Nx, Next.js and Serverless Framework.",
       "url": "https://eprezto.gt/"
     },
     {
@@ -198,9 +198,9 @@
     {
       "endDate": "2021-07",
       "highlights": [
-        "Spearheaded REST API development with NestJS on Node.js, ensuring quality through Clean Architecture and SOLID principles, and managed cryptocurrency transactions using BitGo API.",
-        "Established CI/CD pipelines with GitHub Actions, streamlined deployment on AWS ECS using Docker, and implemented PostgreSQL for data management.",
-        "Developed a chatbot utilizing Google Dialogflow and Serverless Framework on AWS Lambda to boost user interaction and automate processes."
+        "Led the development of a REST API with NestJS on Node.js, ensuring quality through a clean architecture and SOLID principles, and managed cryptocurrency transactions using the BitGo API.",
+        "Established CI/CD pipelines with GitHub Actions, streamlining deployment on AWS ECS using Docker. Implemented PostgreSQL for data management.",
+        "Implemented a chatbot using Google Dialogflow and Serverless Framework on AWS Lambda to drive user interaction and automate processes."
       ],
       "keywords": [
         "NestJS",
