@@ -87,7 +87,7 @@ fs.readFile(htmlFilePath, 'utf8', function (err, html) {
     setMeta('robots', 'index, follow');
     setMeta('og:title', `Resume | CV | ${name} | ${label}`, 'property');
     setMeta('og:description', summary, 'property');
-    setMeta('og:image', 'https://media.licdn.com/dms/image/D4E16AQHUnBYkySCx2Q/profile-displaybackgroundimage-shrink_350_1400/0/1696364468285?e=1710374400&v=beta&t=i6nj-R0M9zyTfG0E-IS6wdoHp0nPKvITv_qcZySpbb8', 'property');
+    setMeta('og:image', 'https://i.postimg.cc/SRLrpWnM/Alois-Carrera-Linked-In.jpg', 'property');
     setMeta('og:url', 'https://aloiscrr.github.io/resume/', 'property');
     setLink('icon', 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>', 'image/x-icon');
 
