@@ -199,7 +199,8 @@
       "endDate": "2021-07",
       "highlights": [
         "Led the development of a REST API with NestJS on Node.js, ensuring quality through a clean architecture and SOLID principles, and managed cryptocurrency transactions using the BitGo API.",
-        "Established CI/CD pipelines with GitHub Actions, streamlining deployment on AWS ECS using Docker. Implemented PostgreSQL for data management.",
+        "Established CI/CD pipelines with GitHub Actions, streamlining deployment on AWS ECS using Docker.",
+        "Implemented PostgreSQL for data management.",
         "Implemented a chatbot using Google Dialogflow and Serverless Framework on AWS Lambda to drive user interaction and automate processes."
       ],
       "keywords": [
