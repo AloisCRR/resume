@@ -116,6 +116,31 @@
   ],
   "work": [
     {
+      "name": "Hola Moda",
+      "position": "Integrations and Analytics Specialist",
+      "startDate": "2024-05-02",
+      "summary": "Responsible for integrating H&M Global API data with internal systems, analyzing sales data, and developing data ingestion and visualization solutions for H&M franchisee in Central America and the Caribbean.",
+      "highlights": [
+        "Integrated H&M Global API with SAP Business One ERP using SAP Service Layer API for managing logistic purchase orders, inbound deliveries, and shipments",
+        "Analyzed sales data from ICG Point of Sale system and developed custom plugins for business-specific requirements",
+        "Integrated SAP with WIS logistics management system for warehouse operations",
+        "Created Python scripts for data ingestion and advanced analytics",
+        "Designed and executed ELT processes for report generation",
+        "Developed data visualizations using Power BI and other Business Intelligence platforms"
+      ],
+      "location": "Panama City, Panama",
+      "url": "https://holamoda.net",
+      "keywords": [
+        "API Integration",
+        "Data Analysis",
+        "SAP Business One",
+        "Python",
+        "ELT",
+        "Power BI",
+        "Business Intelligence"
+      ]
+    },
+    {
       "description": "Eprezto.com is a web portal dedicated to offer third party and full coverage vehicle insurance from a reliable and secure platform.",
       "highlights": [
         "Vehicle insurance quotation system based on APIs",
