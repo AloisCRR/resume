@@ -161,7 +161,8 @@
       "name": "Eprezto",
       "position": "Arquitecto de Soluciones",
       "startDate": "2022-12",
-      "summary": "Lidero actualmente el proyecto de expansión internacional de Eprezto, centrándome en sistemas de aseguramiento de vehículos basados en APIs para 3 países (Costa Rica, Guatemala, República Dominicana), integración de procesador (gateway) de pago (Cybersource de Visa), además de gestionar un equipo compacto. Se estableció un sistema escalable a través del uso de un monorepo, con un proceso de CI/CD (Continuos Integration/Delivery) utilizando tecnologías modernas como Nx, Next.js y Serverless Framework.",
+      "endDate": "2024-04",
+      "summary": "Lideré el proyecto de expansión internacional de Eprezto, centrándome en sistemas de aseguramiento de vehículos basados en APIs para 3 países (Costa Rica, Guatemala, República Dominicana), integración de procesador (gateway) de pago (Cybersource de Visa), además de gestionar un equipo compacto. Se estableció un sistema escalable a través del uso de un monorepo, con un proceso de CI/CD (Continuos Integration/Delivery) utilizando tecnologías modernas como Nx, Next.js y Serverless Framework.",
       "url": "https://eprezto.gt/"
     },
     {
