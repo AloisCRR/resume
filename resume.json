@@ -161,6 +161,7 @@
       "name": "Eprezto",
       "position": "Solutions Architect",
       "startDate": "2022-12",
+      "endDate": "2024-04",
       "summary": "I am currently leading Eprezto's international expansion project, focusing on API-based vehicle insurance systems for 3 countries (Costa Rica, Guatemala, Dominican Republic), payment gateway integration (Visa Cybersource), as well as managing a compact team. A scalable system was established through the use of a monorepo, with a CI/CD (Continuous Integration/Delivery) process using modern technologies such as Nx, Next.js and Serverless Framework.",
       "url": "https://eprezto.gt/"
     },
