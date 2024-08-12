@@ -122,6 +122,7 @@
       "summary": "Responsable de la integración de datos de la API Global de H&M con sistemas internos, análisis de datos de ventas y desarrollo de soluciones de ingesta y visualización de datos para la franquicia de H&M en Centroamérica y el Caribe.",
       "highlights": [
         "Integración de la API Global de H&M con SAP Business One ERP utilizando SAP Service Layer API para la gestión de órdenes de compra logísticas, entregas entrantes y envíos",
+        "Diseño e implementación de múltiples APIs REST para realizar integraciones entre los sistemas internos de Hola Moda (SAP, ICG PoS) y agentes externos o productos de terceros",
         "Análisis de datos de ventas del sistema de Punto de Venta ICG y desarrollo de plugins personalizados para requisitos específicos del negocio",
         "Integración de SAP con el sistema de gestión logística WIS para operaciones de almacén",
         "Creación de scripts en Python para ingesta de datos y análisis avanzados",
