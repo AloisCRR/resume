@@ -93,7 +93,9 @@
       "keywords": [
         "Next.js",
         "Nx",
-        "NestJS"
+        "NestJS",
+        "FastAPI",
+        "JupyterLab"
       ],
       "name": "Frameworks"
     },
@@ -102,14 +104,17 @@
         "MongoDB",
         "PostgreSQL",
         "Elasticsearch",
-        "MySQL"
+        "Microsoft SQL Server"
       ],
       "name": "Databases"
     },
     {
       "keywords": [
         "AWS Lambda",
-        "Serverless Framework"
+        "Azure Functions",
+        "Azure Service Bus",
+        "Docker",
+        "Azure Container Apps"
       ],
       "name": "Cloud & DevOps"
     }
@@ -119,15 +124,16 @@
       "name": "Hola Moda",
       "position": "Integrations and Analytics Specialist",
       "startDate": "2024-05-02",
-      "summary": "Responsible for integrating H&M Global API data with internal systems, analyzing sales data, and developing data ingestion and visualization solutions for H&M franchisee in Central America and the Caribbean.",
+      "summary": "In charge of data integration between systems (H&M Global API, ICG Point of Sale, SAP Business One, WIS Logistics Software), sales analysis, development of data ingestion and visualization solutions for the H&M franchise in Central America and the Caribbean.",
       "highlights": [
+        "Developed a data pipeline for the ingestion and processing of H&M's merchandise shipments by using their Global API (H&M Global API) to provide better understanding and relevant information about upcoming merchandise to the team",
         "Integrated H&M Global API with SAP Business One ERP using SAP Service Layer API for managing logistic purchase orders, inbound deliveries, and shipments",
-        "Design and implementation of multiple REST APIs to perform integrations between Hola Moda's internal systems (SAP, ICG PoS) and external agents or third-party products",
+        "Design, development and deployment of multiple REST APIs to perform integrations between Hola Moda's internal systems (SAP, ICG PoS) and external agents or third party products",
+        "Design, development and deployment using Azure VMs and Docker of multiple internal tools to make data available to stores employees and managers",
         "Analyzed sales data from ICG Point of Sale system and developed custom plugins for business-specific requirements",
         "Integrated SAP with WIS logistics management system for warehouse operations",
-        "Created Python scripts for data ingestion and advanced analytics",
-        "Designed and executed ELT processes for report generation",
-        "Developed data visualizations using Power BI and other Business Intelligence platforms"
+        "Created Python scripts (ELT/ETL processes) for data ingestion and advanced analytics",
+        "Data availability for dashboard development using PowerBI"
       ],
       "location": "Panama City, Panama",
       "url": "https://holamoda.net",

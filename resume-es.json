@@ -93,7 +93,9 @@
       "keywords": [
         "Next.js",
         "Nx",
-        "NestJS"
+        "NestJS",
+        "FastAPI",
+        "JupyterLab"
       ],
       "name": "Frameworks de desarrollo"
     },
@@ -102,14 +104,17 @@
         "MongoDB",
         "PostgreSQL",
         "Elasticsearch",
-        "MySQL"
+        "Microsoft SQL Server"
       ],
       "name": "Bases de datos"
     },
     {
       "keywords": [
         "AWS Lambda",
-        "Serverless Framework"
+        "Azure Functions",
+        "Azure Service Bus",
+        "Docker",
+        "Azure Container Apps"
       ],
       "name": "Nube y DevOps"
     }
@@ -119,15 +124,16 @@
       "name": "Hola Moda",
       "position": "Especialista en Integraciones y Analítica",
       "startDate": "2024-05-02",
-      "summary": "Responsable de la integración de datos de la API Global de H&M con sistemas internos, análisis de datos de ventas y desarrollo de soluciones de ingesta y visualización de datos para la franquicia de H&M en Centroamérica y el Caribe.",
+      "summary": "Responsable de la integración de datos entre sistemas (API Global de H&M, Punto de Venta ICG, SAP Business One, WIS Logistics Software), análisis de ventas, desarrollo de soluciones de ingesta y visualización de datos para la franquicia de H&M en Centroamérica y el Caribe.",
       "highlights": [
-        "Integración de la API Global de H&M con SAP Business One ERP utilizando SAP Service Layer API para la gestión de órdenes de compra logísticas, entregas entrantes y envíos",
-        "Diseño e implementación de múltiples REST APIs para realizar integraciones entre los sistemas internos de Hola Moda (SAP, ICG PoS) y agentes externos o productos de terceros",
+        "Desarrollé un pipeline de datos para la ingesta y procesamiento de los envíos de mercancía de la marca H&M mediante el uso de su API Global (H&M Global API) para proporcionar una mejor comprensión e información relevante sobre la mercancía proxima a llegar al equipo",
+        "Integración de la API Global de H&M con SAP Business One ERP utilizando SAP Service Layer API para la gestión de órdenes de compra logísticas, entregas próximas y envíos de mercancía",
+        "Diseño, implementación y despliegue de múltiples REST APIs para realizar integraciones entre los sistemas internos de Hola Moda (SAP, ICG PoS) y agentes externos o productos de terceros",
+        "Diseño, desarrollo y despliegue mediante Azure VMs y Docker de múltiples herramientas internas para disponibilizar datos a los empleados y administradores de las tiendas",
         "Análisis de datos de ventas del sistema de Punto de Venta ICG y desarrollo de plugins personalizados para requisitos específicos del negocio",
         "Integración de SAP con el sistema de gestión logística WIS para operaciones de almacén",
-        "Creación de scripts en Python para ingesta de datos y análisis avanzados",
-        "Diseño y ejecución de procesos ELT para generación de informes",
-        "Desarrollo de visualizaciones de datos utilizando Power BI y otras plataformas de Inteligencia de Negocios"
+        "Creación de scripts en Python (procesos ELT/ETL) para ingesta de datos y análisis avanzados",
+        "Disponibilidad de datos para el desarrollo de tableros utilizando PowerBI"
       ],
       "location": "Ciudad de Panamá, Panamá",
       "url": "https://holamoda.net",
