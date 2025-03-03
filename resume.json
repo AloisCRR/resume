@@ -257,5 +257,23 @@
       "summary": "Led REST API development and cryptocurrency management, enhancing software design and process automation.",
       "url": "https://www.ewex-app.com"
     }
+  ],
+  "projects": [
+    {
+      "name": "Notes AI Agent",
+      "startDate": "2025-02-01",
+      "endDate": "2025-02-11",
+      "description": "Developed an intelligent note-taking application that leverages AI for generating insights and summaries from user notes. The system includes secure authentication, real-time chat capabilities, and comprehensive note management functionality. Built with a modern tech stack including React, TypeScript, and FastAPI, with AI-powered features for retrieval-augmented generation and SQL query generation.",
+      "highlights": [
+        "LLM-powered insights and automatic summary features",
+        "Built RAG (Retrieval-Augmented Generation) and SQL generation capabilities",
+        "Integrated secure authentication using Supabase",
+        "Developed a real-time AI chat interface with persistent message history",
+        "Created full CRUD operations for note management",
+        "Implemented theme support with dark/light mode",
+        "Ensured type safety with TypeScript and Zod validation"
+      ],
+      "url": "https://notes-ai-agent.aloiscrr.dev/"
+    }
   ]
 }

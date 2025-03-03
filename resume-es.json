@@ -257,5 +257,23 @@
       "summary": "Desarrollo de API REST y gestión de criptomonedas, mejorando el diseño de software y la automatización de procesos.",
       "url": "https://www.ewex-app.com"
     }
+  ],
+  "projects": [
+    {
+      "name": "Notes AI Agent",
+      "startDate": "2025-02-01",
+      "endDate": "2025-02-11",
+      "description": "Desarrollé una aplicación inteligente de toma de notas que utiliza IA para generar ideas y resúmenes a partir de las notas del usuario. El sistema incluye autenticación segura, capacidades de chat en tiempo real y funcionalidad completa de gestión de notas. Construido con un stack tecnológico moderno que incluye React, TypeScript y FastAPI, con características impulsadas por IA para generación aumentada por recuperación y generación de consultas SQL.",
+      "highlights": [
+        "Resumenes y opiniones de tus notas utilizando modelos LLM",
+        "Agregué capacidades RAG (Generación Aumentada por Recuperación) y generación de SQL",
+        "Sistema de autenticación usando Supabase",
+        "Desarrollé una interfaz de chat con IA en tiempo real con historial de mensajes persistente",
+        "Creé operaciones CRUD completas para la gestión de notas",
+        "Implementé soporte de temas con modo oscuro/claro",
+        "Tipado de datos con TypeScript y validación Zod"
+      ],
+      "url": "https://notes-ai-agent.aloiscrr.dev/"
+    }
   ]
 }
