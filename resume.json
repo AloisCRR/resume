@@ -131,9 +131,9 @@
       "startDate": "2024-05-02",
       "summary": "In charge of data integration between systems (H&M Global API, ICG Point of Sale, SAP Business One, WIS Logistics Software), sales analysis, development of data ingestion and visualization solutions for the H&M franchise in Central America and the Caribbean.",
       "highlights": [
-        "Developed a data pipeline for the ingestion and processing of H&M's merchandise shipments by using their Global API (H&M Global API) to provide better understanding and relevant information about upcoming merchandise to the team",
+        "Developed a data pipeline for the ingestion and processing of H&M's merchandise shipments by using Azure Functions subscribed to each Azure Service Bus topic related to a logistic event (Logistic Purchase Order, Inbound Delivery, Inbound Shipment, Commercial Invoice, etc) and their Global API (H&M Global API) to provide better understanding and relevant information about upcoming merchandise to the team",
         "Integrated H&M Global API with SAP Business One ERP using SAP Service Layer API for managing logistic purchase orders, inbound deliveries, and shipments",
-        "Design, development and deployment of multiple REST APIs to perform integrations between Hola Moda's internal systems (SAP, ICG PoS) and external agents or third party products",
+        "Design, development and deployment of multiple REST APIs to perform integrations between Hola Moda's internal systems (SAP, ICG PoS) and external agents or third party products using cloud technologies like Azure Virtual Machines, Azure Functions, Azure Container Apps, Azure Blob Storage, Logic Apps, CosmosDB for NoSQL",
         "Design, development and deployment using Azure VMs and Docker of multiple internal tools to make data available to stores employees and managers",
         "Analyzed sales data from ICG Point of Sale system and developed custom plugins for business-specific requirements",
         "Integrated SAP with WIS logistics management system for warehouse operations",
