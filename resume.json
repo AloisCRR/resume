@@ -232,35 +232,6 @@
       "startDate": "2021-09",
       "summary": "Developed an intelligent irrigation control system using IoT technologies, contributing to sustainable agriculture.",
       "url": "https://esalab.es/estudiantes-de-la-universidad-tecnologica-de-panama-realizan-estancia-en-el-grupo-de-investigacion-esalab/"
-    },
-    {
-      "endDate": "2021-07",
-      "highlights": [
-        "Led the development of a REST API with NestJS on Node.js, ensuring quality through a clean architecture and SOLID principles, and managed cryptocurrency transactions using the BitGo API.",
-        "Established CI/CD pipelines with GitHub Actions, streamlining deployment on AWS ECS using Docker.",
-        "Implemented PostgreSQL for data management.",
-        "Implemented a chatbot using Google Dialogflow and Serverless Framework on AWS Lambda to drive user interaction and automate processes."
-      ],
-      "keywords": [
-        "NestJS",
-        "Node.js",
-        "Clean Architecture",
-        "SOLID Principles",
-        "BitGo API",
-        "GitHub Actions",
-        "Docker",
-        "AWS ECS",
-        "PostgreSQL",
-        "Google Dialogflow",
-        "Serverless Framework",
-        "AWS Lambda"
-      ],
-      "location": "Panama City, Panama",
-      "name": "EWEX",
-      "position": "Backend Engineer",
-      "startDate": "2021-02",
-      "summary": "Led REST API development and cryptocurrency management, enhancing software design and process automation.",
-      "url": "https://www.ewex-app.com"
     }
   ],
   "projects": [
