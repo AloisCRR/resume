@@ -134,7 +134,7 @@
         "Desarrollo de un pipeline de datos para la ingesta y procesamiento de envíos de mercancía de H&M mediante el uso de Azure Functions suscritas a cada topic de Azure Service Bus relacionado con un evento logístico (Logistic Purchase Order, Inbound Delivery, Inbound Shipment, Commercial Invoice, etc) y su API Global (H&M Global API) para proporcionar una mejor comprensión e información relevante sobre la próxima mercancía entrante al equipo",
         "Integración de la API Global de H&M con SAP Business One ERP utilizando SAP Service Layer API para la gestión de órdenes de compra logísticas, entregas próximas y envíos de mercancía",
         "Diseño, implementación y despliegue de múltiples APIs REST para realizar integraciones entre los sistemas internos de Hola Moda (SAP, ICG PoS) y agentes externos o productos de terceros utilizando tecnologías cloud como Azure Virtual Machines, Azure Functions, Azure Container Apps, Azure Blob Storage, Logic Apps, CosmosDB (NoSQL)",
-        "Diseño, desarrollo y despliegue mediante Azure VMs y Docker de múltiples herramientas internas para disponibilizar datos a los empleados y administradores de las tiendas",
+        "Diseño, desarrollo y despliegue mediante Azure VMs y Docker de múltiples herramientas internas para disponibilizar datos a los empleados y administradores de las tiendas en la región (Centroamérica y Caribe)",
         "Análisis de datos de ventas del sistema de Punto de Venta ICG y desarrollo de plugins personalizados para requisitos específicos del negocio",
         "Integración de SAP con el sistema de gestión logística WIS para operaciones de almacén",
         "Creación de scripts en Python (procesos ELT/ETL) para ingesta de datos y análisis avanzados",
