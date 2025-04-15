@@ -250,6 +250,19 @@
         "Tipado de datos con TypeScript y validación Zod"
       ],
       "url": "https://notes-ai-agent.aloiscrr.dev/"
+    },
+    {
+      "name": "CRM Data Analysis",
+      "startDate": "2025-03-09",
+      "endDate": "2025-03-21",
+      "description": "Se analizaron datos de CRM (canal de ventas, cuentas, productos) utilizando Marimo para una experiencia de notebook interactivo. Se aprovechó DuckDB y Polars para el procesamiento eficiente de datos, Altair para visualizaciones dinámicas y Scikit-learn para la clusterización de los clientes mediante K-means.",
+      "highlights": [
+        "Desarrollo de una aplicación interactiva de análisis de datos con Marimo para explorar un dataset de datos de CRM",
+        "Integración con DuckDB para realizar consultas SQL de alto rendimiento y procesar directamente los archivos CSV",
+        "Creación de visualizaciones de datos intuitivas y dinámicas con Altair para descubrir tendencias en los datos de ventas y clientes",
+        "Clustering (Scikit-learn) mediante K-means para la segmentación de clientes basado en atributos del CRM"
+      ],
+      "url": "https://aloiscrr.github.io/crm-data-analysis/"
     }
   ]
 }
