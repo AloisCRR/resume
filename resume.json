@@ -250,6 +250,19 @@
         "Ensured type safety with TypeScript and Zod validation"
       ],
       "url": "https://notes-ai-agent.aloiscrr.dev/"
+    },
+    {
+      "name": "CRM Data Analysis",
+      "startDate": "2025-03-09",
+      "endDate": "2025-03-21",
+      "description": "Analyzed CRM data (sales pipeline, accounts, products) using Marimo for an interactive notebook experience. Leveraged DuckDB & Polars for efficient data processing, Altair for dynamic visualizations, and Scikit-learn for K-means customer clustering.",
+      "highlights": [
+        "Developed an interactive data analysis application using Marimo to explore CRM dataset",
+        "Integrated DuckDB for high-performance SQL querying and processing directly on CSV data files",
+        "Created insightful and dynamic data visualizations with Altair to uncover trends in sales and customer data",
+        "Applied K-means clustering (Scikit-learn) for customer segmentation based on CRM attributes"
+      ],
+      "url": "https://aloiscrr.github.io/crm-data-analysis/"
     }
   ]
 }
