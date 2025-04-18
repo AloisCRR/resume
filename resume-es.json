@@ -10,7 +10,7 @@
   ],
   "basics": {
     "email": "aloiscarrera@gmail.com",
-    "label": "Ingeniero de Sistemas",
+    "label": "Ingeniero de Software | Ingeniero de datos y analítica | Especialista en APIs y Nube",
     "location": {
       "city": "Panamá",
       "countryCode": "PA",
@@ -34,7 +34,7 @@
         "username": "Portafolio"
       }
     ],
-    "summary": "Arquitecto de Soluciones e Ingeniero de Sistemas especializado en la integración de sistemas, desarrollo de APIs y proyectos de transformación digital. Con un enfoque en tecnologías modernas y metodologías ágiles, he liderado proyectos clave, demostrando mi experiencia en el diseño de sistemas escalables y el desarrollo de código eficiente y mantenible. Mi enfoque práctico y compromiso con la excelencia han generado soluciones impactantes en diversos proyectos."
+    "summary": "Profesional tecnológico con experiencia en el diseño, desarrollo e implementación de soluciones integrales que conectan las necesidades del negocio con la ejecución técnica. Utilizo mi experiencia en desarrollo full-stack (JavaScript/TypeScript, Python), ingeniería de datos (ETL/ELT, análisis, visualización) e infraestructura en la nube (AWS, Azure) para integrar sistemas complejos, optimizar operaciones y extraer información clave de los datos para la toma de decisiones. Capacidad demostrada para ejecutar proyectos completos (end-to-end), desde el diseño de arquitecturas cloud escalables y la creación de APIs robustas, hasta la implementación de pipelines de datos y aplicaciones orientadas al usuario que impulsan la eficiencia y facilitan decisiones estratégicas."
   },
   "certificates": [
     {
