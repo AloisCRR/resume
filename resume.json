@@ -154,7 +154,7 @@
         "Digital Tools Development: Created React/FastAPI web applications deployed on Azure VMs using Docker, giving store employees item data access across the region.",
         "Audit System: Built a middleware solution using React, shadcn/ui, FastAPI and Windmill (Async Processing) enabling store teams to audit merchandise after SML RFID scanning, improving inventory accuracy.",
         "Custom Solutions: Developed Python/PySide GUI plugins for ICG PoS addressing specific business requirements.",
-        "Warehouse Operations: Integrated SAP with WIS warehouse system enabling merchandise reception of incoming merchandise containers.",
+        "Warehouse Operations: Integrated SAP with WIS warehouse system enabling merchandise reception of incoming containers.",
         "Data Pipeline Optimization: Implemented ELT/ETL processes using Windmill and dltHub, enhancing data ingestion and processing capabilities enabling advanced analytics through SQL Server and PowerBI dashboards."
       ],
       "location": "Punta Pacífica, Panama City, Panama",
