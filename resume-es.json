@@ -10,7 +10,7 @@
   ],
   "basics": {
     "email": "aloiscarrera@gmail.com",
-    "label": "Ingeniero de Software | Ingeniero de datos y analítica | Especialista en APIs y Nube",
+    "label": "Ingeniero de Software | Especialista de Datos | Experto en servicios en la nube",
     "location": {
       "city": "Panamá",
       "countryCode": "PA",
@@ -126,21 +126,38 @@
   ],
   "work": [
     {
+      "name": "Pandora",
+      "position": "Especialista en Análisis de Clientes de CRM",
+      "startDate": "2025-04-21",
+      "summary": "Como especialista en análisis de clientes de CRM, utilizo DuckDB, Polars, PowerBI y otras herramientas para analizar y extraer información detallada sobre los clientes de Pandora en LATAM.",
+      "highlights": [],
+      "location": "Ciudad de Panamá, Panamá",
+      "url": "https://pandoragroup.com/",
+      "keywords": [
+        "DuckDB",
+        "SQL",
+        "PowerBI",
+        "Python",
+        "Polars"
+      ]
+    },
+    {
       "name": "Hola Moda",
       "position": "Especialista en Integraciones y Analítica",
       "startDate": "2024-05-02",
-      "summary": "Responsable de la integración de datos entre sistemas (API Global de H&M, Punto de Venta ICG, SAP Business One, WIS Logistics Software), análisis de ventas, desarrollo de soluciones de ingesta y visualización de datos para la franquicia de H&M en Centroamérica y el Caribe.",
+      "endDate": "2025-04-19",
+      "summary": "Como Especialista de Integraciones y Analítica, lideré la integración de datos entre múltiples sistemas (H&M Global API, ICG Point of Sale, SAP Business One, WIS Warehouse Management System) y construí soluciones de ingesta/visualización de datos para las operaciones de H&M en América Central y el Caribe.",
       "highlights": [
-        "Desarrollo de un pipeline de datos para la ingesta y procesamiento de envíos de mercancía de H&M mediante el uso de Azure Functions suscritas a cada topic de Azure Service Bus relacionado con un evento logístico (Logistic Purchase Order, Inbound Delivery, Inbound Shipment, Commercial Invoice, etc) y su API Global (H&M Global API) para proporcionar una mejor comprensión e información relevante sobre la próxima mercancía entrante al equipo",
-        "Integración de la API Global de H&M con SAP Business One ERP utilizando SAP Service Layer API para la gestión de órdenes de compra logísticas, entregas próximas y envíos de mercancía",
-        "Diseño, implementación y despliegue de múltiples APIs REST para realizar integraciones entre los sistemas internos de Hola Moda (SAP, ICG PoS) y agentes externos o productos de terceros utilizando tecnologías cloud como Azure Virtual Machines, Azure Functions, Azure Container Apps, Azure Blob Storage, Logic Apps, CosmosDB (NoSQL)",
-        "Diseño, desarrollo y despliegue mediante Azure VMs y Docker de múltiples herramientas internas para disponibilizar datos a los empleados y administradores de las tiendas en la región (Centroamérica y Caribe)",
-        "Análisis de datos de ventas del sistema de Punto de Venta ICG y desarrollo de plugins personalizados para requisitos específicos del negocio",
-        "Integración de SAP con el sistema de gestión logística WIS para operaciones de almacén",
-        "Creación de scripts en Python (procesos ELT/ETL) para ingesta de datos y análisis avanzados",
-        "Disponibilidad de datos para el desarrollo de tableros utilizando PowerBI"
+        "Logística automatizada: Construí un pipeline de datos para el procesamiento de envíos de mercancía de H&M utilizando Azure Functions y Service Bus, manejando eventos logísticos (Órdenes de Compra, Facturas Comerciales). Integrado con la API Global de H&M dando información estratégica a equipos regionales.",
+        "Integración ERP: Conexión de la API Global de H&M con SAP Business One a través de la API de SAP Service Layer, agilizando disponibilidad de información de contenedores y reduciendo el tiempo de procesamiento.",
+        "Arquitectura de API: Desarrollo de múltiples REST APIs conectando sistemas internos con proveedores externos. Utilizando servicios Azure: VMs, Functions, Container Apps, Blob Storage, Logic Apps, CosmosDB (NoSQL).",
+        "Desarrollo de herramientas digitales: Creación de aplicaciones web React/FastAPI desplegadas en Azure VMs usando Docker, dando a empleados de tienda acceso a datos de artículos en la región.",
+        "Sistema de auditoría: Construcción de solución web intermediaria usando React, FastAPI y Windmill (Procesamiento Asíncrono) permitiendo a equipos de tienda auditar la mercancía después del escaneo RFID con SML, mejorando la precisión del inventario.",
+        "Soluciones a medida: Desarrollo de plugins (PySide GUI) en ICG, satisfaciendo necesidades de negocio específicas.",
+        "Operaciones de almacén: Integración de SAP con el sistema de bodega WIS para permitir la recepción de los contenedores de mercancía entrantes.",
+        "Optimización de la distribución de datos: Implementación de procesos ELT/ETL utilizando Windmill y dltHub, mejorando las capacidades de ingesta y procesamiento de datos permitiendo análisis avanzados a través de SQL Server y dashboards en PowerBI."
       ],
-      "location": "Ciudad de Panamá, Panamá",
+      "location": "Punta Pacífica, Ciudad de Panamá, Panamá",
       "url": "https://holamoda.net",
       "keywords": [
         "Integración de API",
@@ -149,7 +166,8 @@
         "Python",
         "ELT",
         "Power BI",
-        "Inteligencia de Negocios"
+        "Inteligencia de Negocios",
+        "SQL"
       ]
     },
     {

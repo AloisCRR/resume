@@ -126,21 +126,38 @@
   ],
   "work": [
     {
+      "name": "Pandora",
+      "position": "CRM Customer Analytics Specialist",
+      "startDate": "2025-04-21",
+      "summary": "As a CRM Customer Analytics Specialist, I leverage DuckDB, Polars, PowerBI and other tools to analyze and extract insightful information about customers in Pandora's LATAM Cluster.",
+      "highlights": [],
+      "location": "Panama City, Panama",
+      "url": "https://pandoragroup.com/",
+      "keywords": [
+        "DuckDB",
+        "SQL",
+        "PowerBI",
+        "Python",
+        "Polars"
+      ]
+    },
+    {
       "name": "Hola Moda",
       "position": "Integrations and Analytics Specialist",
       "startDate": "2024-05-02",
-      "summary": "In charge of data integration between systems (H&M Global API, ICG Point of Sale, SAP Business One, WIS Logistics Software), sales analysis, development of data ingestion and visualization solutions for the H&M franchise in Central America and the Caribbean.",
+      "endDate": "2025-04-19",
+      "summary": "As Integration and Analytics Specialist, I spearheaded data integration initiatives between multiple systems (H&M Global API, ICG Point of Sale, SAP Business One, WIS Warehouse Management System) and built comprehensive data ingestion/visualization solutions for H&M's franchise operations throughout Central America and the Caribbean.",
       "highlights": [
-        "Developed a data pipeline for the ingestion and processing of H&M's merchandise shipments by using Azure Functions subscribed to each Azure Service Bus topic related to a logistic event (Logistic Purchase Order, Inbound Delivery, Inbound Shipment, Commercial Invoice, etc) and their Global API (H&M Global API) to provide better understanding and relevant information about upcoming merchandise to the team",
-        "Integrated H&M Global API with SAP Business One ERP using SAP Service Layer API for managing logistic purchase orders, inbound deliveries, and shipments",
-        "Design, development and deployment of multiple REST APIs to perform integrations between Hola Moda's internal systems (SAP, ICG PoS) and external agents or third party products using cloud technologies like Azure Virtual Machines, Azure Functions, Azure Container Apps, Azure Blob Storage, Logic Apps, CosmosDB for NoSQL",
-        "Design, development and deployment using Azure VMs and Docker of multiple internal tools to make data available to stores employees and managers in the region (Central America & Caribbean)",
-        "Analyzed sales data from ICG Point of Sale system and developed custom plugins for business-specific requirements",
-        "Integrated SAP with WIS logistics management system for warehouse operations",
-        "Created Python scripts (ELT/ETL processes) for data ingestion and advanced analytics",
-        "Data availability for dashboard development using PowerBI"
+        "Automated Logistics Pipeline: Built a data pipeline processing H&M merchandise shipments using Azure Functions and Service Bus, handling critical logistics events (Purchase Orders, Commercial Invoices). Integrated with H&M Global API to deliver actionable insights to regional teams.",
+        "ERP Integration: Connected H&M Global API with SAP Business One via SAP Service Layer API using Python and Windmill, streamlining incoming container information availability and reducing processing time.",
+        "API Architecture: Designed and deployed multiple REST APIs (Python/FastAPI) connecting internal systems with external partners. Leveraged multiple Azure cloud services: VMs, Functions, Container Apps, Blob Storage, Logic Apps, CosmosDB (NoSQL).",
+        "Digital Tools Development: Created React/FastAPI web applications deployed on Azure VMs using Docker, giving store employees item data access across the region.",
+        "Audit System: Built a middleware solution using React, shadcn/ui, FastAPI and Windmill (Async Processing) enabling store teams to audit merchandise after SML RFID scanning, improving inventory accuracy.",
+        "Custom Solutions: Developed Python/PySide GUI plugins for ICG PoS addressing specific business requirements.",
+        "Warehouse Operations: Integrated SAP with WIS warehouse system enabling merchandise reception of incoming merchandise containers.",
+        "Data Pipeline Optimization: Implemented ELT/ETL processes using Windmill and dltHub, enhancing data ingestion and processing capabilities enabling advanced analytics through SQL Server and PowerBI dashboards."
       ],
-      "location": "Panama City, Panama",
+      "location": "Punta Pacífica, Panama City, Panama",
       "url": "https://holamoda.net",
       "keywords": [
         "API Integration",
@@ -149,7 +166,8 @@
         "Python",
         "ELT",
         "Power BI",
-        "Business Intelligence"
+        "Business Intelligence",
+        "SQL"
       ]
     },
     {
