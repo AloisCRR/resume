@@ -40,23 +40,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Validate resume.json
-        run: npm run validate
-
-      - name: Validate resume.json (ES)
-        run: npm run validate -- --resume resume-es.json
-
-      - name: Run export script
-        run: npm run export -- ./docs/index.html
-
-      - name: Run export script (ES)
-        run: npm run export -- --resume resume-es.json ./docs/es.html
-
-      - name: Update HTML with meta tags
-        run: npm run update-html
-
-      - name: Update HTML with meta tags (ES)
-        run: npm run update-html -- ./docs/es.html resume-es.json
+      - name: Build resumes from Directus
+        env:
+          DIRECTUS_URL: ${{ secrets.DIRECTUS_URL }}
+          DIRECTUS_TOKEN: ${{ secrets.DIRECTUS_TOKEN }}
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
