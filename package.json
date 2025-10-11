@@ -9,7 +9,9 @@
     "export": "resume export --theme stackoverflow",
     "export-pdf": "resume export resume.pdf --format pdf",
     "validate": "resume validate",
-    "update-html": "node updateHtml.js"
+    "update-html": "node updateHtml.js",
+    "build": "node scripts/build-resumes.js",
+    "build:directus": "node scripts/build-resumes.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,5 @@
     "jsdom": "23.0.1",
     "jsonresume-theme-stackoverflow": "2.0.2",
     "resume-cli": "3.0.8"
-  },
-  "private": true
+  }
 }

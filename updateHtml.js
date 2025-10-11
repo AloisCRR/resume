@@ -75,27 +75,84 @@ fs.readFile(htmlFilePath, 'utf8', function (err, html) {
         }
     }
 
-    const { label, name, summary } = resumeData.basics;
+    const { label, name, summary, keywords } = resumeData.basics;
+    const lang = resumeData.lang || 'en';
 
-    // Update or add your specific meta tags
+    // Dynamic URL generation based on language
+    const baseUrl = 'https://aloiscrr.github.io/resume';
+    const currentUrl = lang === 'en' ? baseUrl : `${baseUrl}/${lang}`;
+
+    // Dynamic title prefix based on language
+    const titlePrefixes = {
+      'en': 'Resume | CV',
+      'es': 'Currículum | CV',
+      'fr': 'CV | Résumé',
+      'de': 'Lebenslauf | CV',
+      'pt': 'Currículo | CV',
+      'it': 'CV | Resume',
+      'nl': 'CV | Resume',
+      'zh': '简历 | CV',
+      'ja': '履歴書 | CV',
+      'ko': '이력서 | CV'
+    };
+    const titlePrefix = titlePrefixes[lang] || 'Resume | CV';
+
+    // Update or add meta tags dynamically
     setMeta('charset', 'UTF-8', 'charset'); // Special case for charset
     setMeta('viewport', 'width=device-width, initial-scale=1');
     setTitle(`${name} - ${label}`);
     setMeta('description', summary);
-    setMeta('keywords', `${name}, Software Engineer, Full Stack Engineer, Systems Design, React.js, TypeScript, Next.js, NestJS, Node.js, Elasticsearch, AWS Lambda, Agile Methodologies, Notion, GitHub Issues, Docker Products, Apache Kafka, AWS, Serverless Computing, Data Science, Solutions Architect, Eprezto, ESALab, EWEX, Universidad Tecnológica de Panamá, Software Development, IoT, CI/CD, GitHub Actions, AWS ECS`);
+    
+    // Use keywords from Directus, fallback to name + label if not available
+    const metaKeywords = keywords || `${name}, ${label}`;
+    setMeta('keywords', metaKeywords);
+    
     setMeta('author', name);
     setMeta('robots', 'index, follow');
-    setMeta('og:title', `Resume | CV | ${name} | ${label}`, 'property');
+    setMeta('lang', lang);
+    
+    // Open Graph meta tags
+    setMeta('og:title', `${titlePrefix} | ${name} | ${label}`, 'property');
     setMeta('og:description', summary, 'property');
     setMeta('og:image', 'https://i.postimg.cc/xfhFM5Yt/Alois-Carrera-Linked-In.jpg', 'property');
-    setMeta('og:url', 'https://aloiscrr.github.io/resume/', 'property');
+    setMeta('og:url', currentUrl, 'property');
+    setMeta('og:locale', getOGLocale(lang), 'property');
+    
+    // Twitter Card meta tags
+    setMeta('twitter:card', 'summary_large_image');
+    setMeta('twitter:title', `${titlePrefix} | ${name} | ${label}`);
+    setMeta('twitter:description', summary);
+    setMeta('twitter:image', 'https://i.postimg.cc/xfhFM5Yt/Alois-Carrera-Linked-In.jpg');
+    setMeta('twitter:site', '@aloiscrr');
+    
+    // Favicon
     setLink('icon', 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>', 'image/x-icon');
+    
+    // Canonical link
+    setLink('canonical', currentUrl);
+
+    // Helper function to get Open Graph locale
+    function getOGLocale(lang) {
+        const locales = {
+            'en': 'en_US',
+            'es': 'es_ES',
+            'fr': 'fr_FR',
+            'de': 'de_DE',
+            'pt': 'pt_PT',
+            'it': 'it_IT',
+            'nl': 'nl_NL',
+            'zh': 'zh_CN',
+            'ja': 'ja_JP',
+            'ko': 'ko_KR'
+        };
+        return locales[lang] || 'en_US';
+    }
 
     // Write the updated HTML back to the file
     fs.writeFile(htmlFilePath, dom.serialize(), function (err) {
         if (err) {
             throw err;
         }
-        console.log('Updated index.html with new meta tags');
+        console.log(`Updated ${htmlFilePath} with dynamic meta tags for language: ${lang}`);
     });
 });
