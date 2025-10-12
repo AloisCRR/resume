@@ -61,7 +61,7 @@ fs.readFile(htmlFilePath, 'utf8', function (err, html) {
     }
 
     // Function to set link (for favicon)
-    function setLink(rel, href, type) {
+    function setLink(rel, href, type = '') {
         let linkElement = document.querySelector(`link[rel="${rel}"]`);
         if (linkElement) {
             linkElement.setAttribute('href', href);
@@ -84,50 +84,50 @@ fs.readFile(htmlFilePath, 'utf8', function (err, html) {
 
     // Dynamic title prefix based on language
     const titlePrefixes = {
-      'en': 'Resume | CV',
-      'es': 'Currículum | CV',
-      'fr': 'CV | Résumé',
-      'de': 'Lebenslauf | CV',
-      'pt': 'Currículo | CV',
-      'it': 'CV | Resume',
-      'nl': 'CV | Resume',
-      'zh': '简历 | CV',
-      'ja': '履歴書 | CV',
-      'ko': '이력서 | CV'
+        'en': 'Resume | CV',
+        'es': 'Currículum | CV',
+        'fr': 'CV | Résumé',
+        'de': 'Lebenslauf | CV',
+        'pt': 'Currículo | CV',
+        'it': 'CV | Resume',
+        'nl': 'CV | Resume',
+        'zh': '简历 | CV',
+        'ja': '履歴書 | CV',
+        'ko': '이력서 | CV'
     };
     const titlePrefix = titlePrefixes[lang] || 'Resume | CV';
 
     // Update or add meta tags dynamically
     setMeta('charset', 'UTF-8', 'charset'); // Special case for charset
     setMeta('viewport', 'width=device-width, initial-scale=1');
-    setTitle(`${name} - ${label}`);
+    setTitle(`${titlePrefix} | ${name} | ${label}`);
     setMeta('description', summary);
-    
+
     // Use keywords from Directus, fallback to name + label if not available
     const metaKeywords = keywords || `${name}, ${label}`;
     setMeta('keywords', metaKeywords);
-    
+
     setMeta('author', name);
     setMeta('robots', 'index, follow');
     setMeta('lang', lang);
-    
+
     // Open Graph meta tags
     setMeta('og:title', `${titlePrefix} | ${name} | ${label}`, 'property');
     setMeta('og:description', summary, 'property');
     setMeta('og:image', 'https://i.postimg.cc/xfhFM5Yt/Alois-Carrera-Linked-In.jpg', 'property');
     setMeta('og:url', currentUrl, 'property');
     setMeta('og:locale', getOGLocale(lang), 'property');
-    
+
     // Twitter Card meta tags
     setMeta('twitter:card', 'summary_large_image');
     setMeta('twitter:title', `${titlePrefix} | ${name} | ${label}`);
     setMeta('twitter:description', summary);
     setMeta('twitter:image', 'https://i.postimg.cc/xfhFM5Yt/Alois-Carrera-Linked-In.jpg');
     setMeta('twitter:site', '@aloiscrr');
-    
+
     // Favicon
     setLink('icon', 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>', 'image/x-icon');
-    
+
     // Canonical link
     setLink('canonical', currentUrl);
 
