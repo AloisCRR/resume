@@ -6,7 +6,11 @@ const DataTransformer = require('./data-transformer');
 
 // Load environment variables from .env file (Node.js 20.6.0+)
 if (process.loadEnvFile) {
-  process.loadEnvFile('.env');
+  try {
+    process.loadEnvFile('.env');
+  } catch (error) {
+    // Silently ignore if .env file doesn't exist (CI environment)
+  }
 }
 
 class ResumeBuilder {
