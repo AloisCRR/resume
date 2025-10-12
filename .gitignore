@@ -131,3 +131,8 @@ dist
 
 # Auto-generated
 public
+
+
+prompts/*
+
+resume*.json
