@@ -12,8 +12,8 @@ importers:
         specifier: 27.0.0
         version: 27.0.0(postcss@8.5.6)
       jsonresume-theme-stackoverflow:
-        specifier: 2.1.0
-        version: 2.1.0
+        specifier: 3.1.1
+        version: 3.1.1
       resume-cli:
         specifier: 3.1.2
         version: 3.1.2
@@ -185,9 +185,6 @@ packages:
 
   argparse@1.0.10:
     resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==}
-
-  argparse@2.0.1:
-    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
   arr-diff@4.0.0:
     resolution: {integrity: sha512-YVIQ82gZPGBebQV/a8dar4AitzCQs0jjXwMPZllpXMaGjXPYVUawSxQrRsjhjupyVxEvbHgUmIhKVlND+j02kA==}
@@ -645,10 +642,6 @@ packages:
 
   entities@1.1.2:
     resolution: {integrity: sha512-f2LZMYl1Fzu7YSBKg+RoROelpOaNrcGmE9AZubeDfrCEia483oW4MI4VyFd5VNHIgQ/7qm1I0wUHK1eJnn2y2w==}
-
-  entities@3.0.1:
-    resolution: {integrity: sha512-WiyBqoomrwMdFG1e0kqvASYfnlb0lp8M5o5Fw2OFq1hNZxxcNk8Ik0Xm7LxzBhuidnZB/UtBqVCgUz3kBOP51Q==}
-    engines: {node: '>=0.12'}
 
   entities@6.0.1:
     resolution: {integrity: sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==}
@@ -1114,8 +1107,8 @@ packages:
   jsonresume-theme-even@0.6.1:
     resolution: {integrity: sha512-QLN3Hh8e7v9ZK3xAcvcOoePDpgWjU5xwzrzLxPEdJZ0JS3Nc5A/KRbUAkcPvNbUvZuCXwHgN8zfETVItQVTDRQ==}
 
-  jsonresume-theme-stackoverflow@2.1.0:
-    resolution: {integrity: sha512-Fy2kP9G/uQPLBtg9XStmRAhAOaxF19WGUeGa9Dc0+dD0tk1iCg170RUysMex/frKzsJF90xZYM5MdSIkWcJUxw==}
+  jsonresume-theme-stackoverflow@3.1.1:
+    resolution: {integrity: sha512-G3n5UDA0FPJ3viT/v50FZ5pNjiL8zK2DMGb3p17kvvlFZFrRWFzIYK1dudmfa3dhEklcelBB5ohWf8tUv9ICwQ==}
 
   jsonresume-themeutils@1.4.3:
     resolution: {integrity: sha512-Nor8HmHHe3gkyba76A2p1pOom9iaszI0eqZk5/EbvmEV6UxYkHfoeGp+HbVYFbRV+qQucf9GBeteN1VTPCqQZg==}
@@ -1147,9 +1140,6 @@ packages:
 
   linkify-it@1.2.4:
     resolution: {integrity: sha512-eGHwtlABkp1NOJSiKUNqBf3SYAS5jPHtvRXPAgNaQwTqmkTahjtiLH9NtxdR5IOPhNvwNMN/diswSfZKzUkhGg==}
-
-  linkify-it@4.0.1:
-    resolution: {integrity: sha512-C7bfi1UZmoj8+PQx22XyeXCuBlokoyWQL5pWSP+EI6nzRylyThouddufc2c1NDIcP9k5agmN9fLpA7VNJfIiqw==}
 
   localtunnel@2.0.2:
     resolution: {integrity: sha512-n418Cn5ynvJd7m/N1d9WVJISLJF/ellZnfsLnx8WBWGzxv/ntNcFkJ1o6se5quUhCplfLGBNL5tYHiq5WF3Nug==}
@@ -1192,10 +1182,6 @@ packages:
 
   markdown-it-abbr@1.0.4:
     resolution: {integrity: sha512-ZeA4Z4SaBbYysZap5iZcxKmlPL6bYA8grqhzJIHB1ikn7njnzaP8uwbtuXc4YXD5LicI4/2Xmc0VwmSiFV04gg==}
-
-  markdown-it@13.0.2:
-    resolution: {integrity: sha512-FtwnEuuK+2yVU7goGn/MJ0WBZMM9ZPgU9spqlFs7/A/pDIUNSOQZhUgOqYCficIuR2QaFnrt8LHqBWsbTAoI5w==}
-    hasBin: true
 
   markdown-it@6.1.1:
     resolution: {integrity: sha512-woFl7h/sqt9xRmiMweNuO7nu+w8Lz3SXsDlvE3TYeu1SdPqQ+VW4GZyaKP442Bq6XUN6V6IQjJTR93RDYG2mjw==}
@@ -2279,8 +2265,6 @@ snapshots:
     dependencies:
       sprintf-js: 1.0.3
 
-  argparse@2.0.1: {}
-
   arr-diff@4.0.0: {}
 
   arr-flatten@1.1.0: {}
@@ -2784,8 +2768,6 @@ snapshots:
       - utf-8-validate
 
   entities@1.1.2: {}
-
-  entities@3.0.1: {}
 
   entities@6.0.1: {}
 
@@ -3330,11 +3312,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  jsonresume-theme-stackoverflow@2.1.0:
-    dependencies:
-      handlebars: 4.7.8
-      markdown-it: 13.0.2
-      moment: 2.30.1
+  jsonresume-theme-stackoverflow@3.1.1: {}
 
   jsonresume-themeutils@1.4.3:
     dependencies:
@@ -3364,10 +3342,6 @@ snapshots:
   lines-and-columns@1.2.4: {}
 
   linkify-it@1.2.4:
-    dependencies:
-      uc.micro: 1.0.6
-
-  linkify-it@4.0.1:
     dependencies:
       uc.micro: 1.0.6
 
@@ -3403,14 +3377,6 @@ snapshots:
       object-visit: 1.0.1
 
   markdown-it-abbr@1.0.4: {}
-
-  markdown-it@13.0.2:
-    dependencies:
-      argparse: 2.0.1
-      entities: 3.0.1
-      linkify-it: 4.0.1
-      mdurl: 1.0.1
-      uc.micro: 1.0.6
 
   markdown-it@6.1.1:
     dependencies:

@@ -36,7 +36,9 @@ class DataTransformer {
     return {
       name: data.name || '',
       label: data.title || '',
-      email,
+      website: 'https://aloiscrr.dev',
+      url: 'https://aloiscrr.dev',
+      email: email?.replace('mailto:', ''),
       location: location,
       summary: data.summary || '',
       keywords: data.keywords || '',
@@ -81,13 +83,13 @@ class DataTransformer {
       const exp = item.resume_work_experience_id;
 
       return {
-        company: exp.company || '',
+        name: exp.company || '',
         position: exp.title || '',
         location: exp.location || '',
         startDate: this.formatDate(exp.start_date) || '',
         endDate: this.formatDate(exp.end_date) || '',
-        website: exp.website || '',
-        // url: exp.website || '',
+        // website: exp.website || '',
+        url: exp.website || '',
         summary: exp.description || '',
         // highlights: this.transformResponsibilities(exp.responsibilities),
         keywords: this.transformTechUsed(exp.tech_used)
@@ -114,7 +116,7 @@ class DataTransformer {
       const project = item.resume_projects_id;
       return {
         name: project.title || '',
-        description: '',
+        description: project.summary,
         startDate: this.formatDate(project.date) || '',
         endDate: this.formatDate(project.end_date) || '',
         url: project.website || '',
